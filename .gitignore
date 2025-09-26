@@ -1,0 +1,10 @@
+echo *.pkl > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo *.log >> .gitignore
+train_full_customer_dataset.csv 
+train_full_customer_dataset.csv 
+train_full_customer_dataset.csv 
+train_full_customer_dataset.csv 
+train_full_customer_dataset.zip 
+*.pkl 

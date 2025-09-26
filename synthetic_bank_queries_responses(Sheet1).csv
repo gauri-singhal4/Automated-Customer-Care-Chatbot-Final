@@ -1,0 +1,301 @@
+Customer_ID,Intent,Query,Response
+CUST1231,Loan Assistance,What is my remaining loan amount?,"Dear Customer_231, you have a Car Loan of ?1161399.69."
+CUST1446,Balance Inquiry,What is my account balance?,"Dear Customer_446, your current balance is ?129468.16."
+CUST1221,Loan Assistance,What is my remaining loan amount?,"Dear Customer_221, you have a Education Loan of ?0.0."
+CUST1157,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1027,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_27, you have a Home Loan of ?1888763.98."
+CUST1178,Loan Assistance,How do I pay my EMI?,"Dear Customer_178, you have a Car Loan of ?1237505.62."
+CUST1315,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1238,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_238, your current balance is ?271376.39."
+CUST1334,Balance Inquiry,How much money do I have in my account?,"Dear Customer_334, your current balance is ?163436.22."
+CUST1400,Card Management,How do I unblock my card?,Your card status is Blocked. We can help you update or block it as needed.
+CUST1124,Card Management,"I lost my debit card, please block it.",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1247,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1391,Loan Assistance,What is my remaining loan amount?,"Dear Customer_391, you have a Personal Loan of ?0.0."
+CUST1206,Balance Inquiry,How much money do I have in my account?,"Dear Customer_206, your current balance is ?346045.49."
+CUST1479,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1072,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1209,Balance Inquiry,What is my account balance?,"Dear Customer_209, your current balance is ?66106.48."
+CUST1242,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1315,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1449,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1023,Loan Assistance,What is my remaining loan amount?,"Dear Customer_23, you have a Personal Loan of ?1104780.53."
+CUST1245,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1162,Loan Assistance,What is my remaining loan amount?,"Dear Customer_162, you have a Car Loan of ?0.0."
+CUST1359,Card Management,How do I unblock my card?,Your card status is Active. We can help you update or block it as needed.
+CUST1346,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1205,Loan Assistance,How do I pay my EMI?,"Dear Customer_205, you have a Education Loan of ?0.0."
+CUST1292,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1490,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_490, you have a Car Loan of ?0.0."
+CUST1011,Card Management,"I lost my debit card, please block it.",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1396,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1116,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_116, you have a Car Loan of ?1414640.87."
+CUST1012,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_12, you have a Personal Loan of ?0.0."
+CUST1006,Balance Inquiry,What is my account balance?,"Dear Customer_6, your current balance is ?86990.86."
+CUST1089,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1391,Card Management,How do I unblock my card?,Your card status is Active. We can help you update or block it as needed.
+CUST1411,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1047,Card Management,How do I unblock my card?,Your card status is Blocked. We can help you update or block it as needed.
+CUST1420,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1053,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1108,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1433,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1403,Loan Assistance,Tell me the interest rate on my loan.,You currently have no active loans.
+CUST1109,Loan Assistance,How do I pay my EMI?,You currently have no active loans.
+CUST1055,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1459,Card Management,How do I unblock my card?,Your card status is Blocked. We can help you update or block it as needed.
+CUST1448,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1437,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1144,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_144, your current balance is ?394703.78."
+CUST1306,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1211,Card Management,How do I unblock my card?,Your card status is Expired. We can help you update or block it as needed.
+CUST1216,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1224,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1167,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_167, your current balance is ?116151.62."
+CUST1061,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1312,Balance Inquiry,What is my account balance?,"Dear Customer_312, your current balance is ?114774.15."
+CUST1005,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1209,Card Management,"I lost my debit card, please block it.",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1061,Card Management,How do I unblock my card?,Your card status is Active. We can help you update or block it as needed.
+CUST1163,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1366,Loan Assistance,What is my remaining loan amount?,"Dear Customer_366, you have a Education Loan of ?0.0."
+CUST1283,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1226,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_226, your current balance is ?145841.45."
+CUST1358,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1479,Loan Assistance,How do I pay my EMI?,"Dear Customer_479, you have a Home Loan of ?226047.13."
+CUST1296,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1202,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1000,Balance Inquiry,What is my account balance?,"Dear Customer_0, your current balance is ?484438.69."
+CUST1459,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1061,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1342,Loan Assistance,What is my remaining loan amount?,"Dear Customer_342, you have a Personal Loan of ?1750186.57."
+CUST1123,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1406,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1091,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_91, your current balance is ?179657.29."
+CUST1354,Card Management,How do I unblock my card?,Your card status is Expired. We can help you update or block it as needed.
+CUST1207,Balance Inquiry,What is my account balance?,"Dear Customer_207, your current balance is ?270654.79."
+CUST1085,Loan Assistance,What is my remaining loan amount?,"Dear Customer_85, you have a Personal Loan of ?0.0."
+CUST1404,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1300,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1426,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1019,Balance Inquiry,What is my account balance?,"Dear Customer_19, your current balance is ?364090.84."
+CUST1456,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1043,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1295,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1125,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1423,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1282,Balance Inquiry,How much money do I have in my account?,"Dear Customer_282, your current balance is ?158134.15."
+CUST1193,Loan Assistance,How do I pay my EMI?,"Dear Customer_193, you have a Home Loan of ?1853360.86."
+CUST1200,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1002,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1306,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1033,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1402,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_402, your current balance is ?292816.82."
+CUST1061,Balance Inquiry,What is my account balance?,"Dear Customer_61, your current balance is ?424077.74."
+CUST1377,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1264,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1174,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1198,Loan Assistance,How do I pay my EMI?,"Dear Customer_198, you have a Car Loan of ?0.0."
+CUST1089,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1019,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1442,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1339,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1144,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1056,Balance Inquiry,What is my account balance?,"Dear Customer_56, your current balance is ?433668.52."
+CUST1472,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1002,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_2, your current balance is ?217846.36."
+CUST1465,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1064,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_64, your current balance is ?448650.28."
+CUST1466,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1155,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1453,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1287,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1397,Loan Assistance,How do I pay my EMI?,"Dear Customer_397, you have a Car Loan of ?0.0."
+CUST1248,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1379,Loan Assistance,How do I pay my EMI?,"Dear Customer_379, you have a Home Loan of ?1437883.72."
+CUST1227,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_227, your current balance is ?183729.93."
+CUST1219,Loan Assistance,What is my remaining loan amount?,"Dear Customer_219, you have a Car Loan of ?810641.78."
+CUST1140,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1008,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1206,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1013,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1227,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_227, your current balance is ?183729.93."
+CUST1081,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1498,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_498, you have a Personal Loan of ?1510938.91."
+CUST1360,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1122,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1173,Loan Assistance,How do I pay my EMI?,You currently have no active loans.
+CUST1081,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_81, your current balance is ?94607.63."
+CUST1040,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1073,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1322,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1476,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1320,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1399,Balance Inquiry,What is my account balance?,"Dear Customer_399, your current balance is ?286199.81."
+CUST1284,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_284, your current balance is ?477735.87."
+CUST1400,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1445,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1240,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1315,Card Management,"My credit card expired, what should I do?",Your card status is Blocked. We can help you update or block it as needed.
+CUST1318,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1379,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1040,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1421,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1167,Card Management,How do I unblock my card?,Your card status is Active. We can help you update or block it as needed.
+CUST1343,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1082,Card Management,How do I unblock my card?,Your card status is Blocked. We can help you update or block it as needed.
+CUST1000,Loan Assistance,How do I pay my EMI?,"Dear Customer_0, you have a Home Loan of ?737710.47."
+CUST1267,Balance Inquiry,How much money do I have in my account?,"Dear Customer_267, your current balance is ?321479.33."
+CUST1094,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_94, you have a Personal Loan of ?0.0."
+CUST1027,Balance Inquiry,What is my account balance?,"Dear Customer_27, your current balance is ?436943.06."
+CUST1002,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_2, you have a Home Loan of ?0.0."
+CUST1306,Balance Inquiry,What is my account balance?,"Dear Customer_306, your current balance is ?371209.6."
+CUST1449,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_449, your current balance is ?304629.89."
+CUST1096,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1206,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_206, your current balance is ?346045.49."
+CUST1004,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1310,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_310, your current balance is ?112219.76."
+CUST1120,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1456,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1359,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1347,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1453,Card Management,How do I unblock my card?,Your card status is Expired. We can help you update or block it as needed.
+CUST1398,Card Management,How do I unblock my card?,Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1217,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1176,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_176, you have a Education Loan of ?444056.23."
+CUST1056,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1467,Card Management,How do I unblock my card?,Your card status is Expired. We can help you update or block it as needed.
+CUST1090,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_90, your current balance is ?127590.43."
+CUST1289,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1482,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_482, you have a Car Loan of ?1854541.22."
+CUST1350,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1126,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_126, you have a Personal Loan of ?0.0."
+CUST1319,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1007,Balance Inquiry,What is my account balance?,"Dear Customer_7, your current balance is ?427177.7."
+CUST1087,Card Management,How do I unblock my card?,Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1355,Loan Assistance,How do I pay my EMI?,"Dear Customer_355, you have a Education Loan of ?1498082.14."
+CUST1034,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1148,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1093,Loan Assistance,How do I pay my EMI?,"Dear Customer_93, you have a Education Loan of ?1821931.04."
+CUST1068,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1239,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1177,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1368,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1147,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1420,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1485,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1411,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1100,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1042,Loan Assistance,What is my remaining loan amount?,"Dear Customer_42, you have a Personal Loan of ?0.0."
+CUST1047,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1102,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1331,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1283,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1189,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1390,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1381,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_381, you have a Education Loan of ?268072.78."
+CUST1072,Loan Assistance,What is my remaining loan amount?,"Dear Customer_72, you have a Education Loan of ?0.0."
+CUST1370,Card Management,"My credit card expired, what should I do?",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1070,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1221,Balance Inquiry,How much money do I have in my account?,"Dear Customer_221, your current balance is ?389785.21."
+CUST1174,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1053,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1189,Balance Inquiry,How much money do I have in my account?,"Dear Customer_189, your current balance is ?393992.89."
+CUST1165,Balance Inquiry,How much money do I have in my account?,"Dear Customer_165, your current balance is ?456174.52."
+CUST1323,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1378,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1283,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1008,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_8, your current balance is ?430551.84."
+CUST1461,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1180,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1028,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1458,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1258,Loan Assistance,What is my remaining loan amount?,"Dear Customer_258, you have a Car Loan of ?635134.85."
+CUST1099,Card Management,"My credit card expired, what should I do?",Your card status is Blocked. We can help you update or block it as needed.
+CUST1466,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1455,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1314,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1489,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_489, your current balance is ?112704.54."
+CUST1341,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1209,Card Management,"I lost my debit card, please block it.",Your card status is Lost Reported. We can help you update or block it as needed.
+CUST1188,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_188, your current balance is ?204040.78."
+CUST1135,Balance Inquiry,How much money do I have in my account?,"Dear Customer_135, your current balance is ?399672.03."
+CUST1037,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1061,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1048,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1357,Loan Assistance,What is my remaining loan amount?,You currently have no active loans.
+CUST1324,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1040,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1131,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1253,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1189,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1020,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_20, your current balance is ?127474.16."
+CUST1456,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1337,Card Management,"I lost my debit card, please block it.",Your card status is Active. We can help you update or block it as needed.
+CUST1397,Card Management,How do I unblock my card?,Your card status is Blocked. We can help you update or block it as needed.
+CUST1323,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1322,Balance Inquiry,How much money do I have in my account?,"Dear Customer_322, your current balance is ?369936.58."
+CUST1099,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_99, your current balance is ?60318.23."
+CUST1132,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_132, your current balance is ?124736.38."
+CUST1154,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1429,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_429, your current balance is ?73470.14."
+CUST1366,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1362,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1227,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1312,Loan Assistance,What is my remaining loan amount?,"Dear Customer_312, you have a Education Loan of ?0.0."
+CUST1014,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1375,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1238,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1101,Balance Inquiry,How much money do I have in my account?,"Dear Customer_101, your current balance is ?211018.7."
+CUST1147,Loan Assistance,How do I pay my EMI?,"Dear Customer_147, you have a Education Loan of ?423779.19."
+CUST1459,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_459, you have a Home Loan of ?1635170.89."
+CUST1192,Balance Inquiry,How much money do I have in my account?,"Dear Customer_192, your current balance is ?53533.38."
+CUST1305,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1434,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1176,Loan Assistance,How do I pay my EMI?,"Dear Customer_176, you have a Education Loan of ?444056.23."
+CUST1340,Card Management,How do I unblock my card?,Your card status is Active. We can help you update or block it as needed.
+CUST1033,Balance Inquiry,How much money do I have in my account?,"Dear Customer_33, your current balance is ?18860.64."
+CUST1226,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1372,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1008,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1062,Bill Payments & Reminders,Can you remind me of my bill due date?,Your bill payment reminder has been set successfully.
+CUST1159,Loan Assistance,What is my remaining loan amount?,"Dear Customer_159, you have a Home Loan of ?0.0."
+CUST1266,Balance Inquiry,How much money do I have in my account?,"Dear Customer_266, your current balance is ?196770.39."
+CUST1038,Balance Inquiry,What is my account balance?,"Dear Customer_38, your current balance is ?340634.22."
+CUST1499,Balance Inquiry,What is my account balance?,"Dear Customer_499, your current balance is ?297218.24."
+CUST1371,Loan Assistance,How do I pay my EMI?,"Dear Customer_371, you have a Education Loan of ?695780.73."
+CUST1140,Loan Assistance,How do I pay my EMI?,"Dear Customer_140, you have a Personal Loan of ?1138822.48."
+CUST1276,Loan Assistance,Tell me the interest rate on my loan.,"Dear Customer_276, you have a Car Loan of ?1887234.49."
+CUST1359,Balance Inquiry,How much money do I have in my account?,"Dear Customer_359, your current balance is ?206999.44."
+CUST1093,Balance Inquiry,How much money do I have in my account?,"Dear Customer_93, your current balance is ?4295.83."
+CUST1011,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_11, your current balance is ?189604.42."
+CUST1302,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1253,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1126,Card Management,How do I unblock my card?,Your card status is Expired. We can help you update or block it as needed.
+CUST1260,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1440,Card Management,"I lost my debit card, please block it.",Your card status is Expired. We can help you update or block it as needed.
+CUST1144,Loan Assistance,What is my remaining loan amount?,"Dear Customer_144, you have a Car Loan of ?1191791.44."
+CUST1322,Complaint Management,Why did my transaction fail?,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1313,Bill Payments & Reminders,Set up automatic bill payment for me.,Your bill payment reminder has been set successfully.
+CUST1366,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1220,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_220, your current balance is ?470637.78."
+CUST1361,Complaint Management,I was charged twice for the same transaction.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1272,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_272, your current balance is ?23401.1."
+CUST1196,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_196, your current balance is ?64728.04."
+CUST1128,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1309,Loan Assistance,What is my remaining loan amount?,"Dear Customer_309, you have a Education Loan of ?0.0."
+CUST1235,Balance Inquiry,What is my account balance?,"Dear Customer_235, your current balance is ?247470.78."
+CUST1221,Loan Assistance,What is my remaining loan amount?,"Dear Customer_221, you have a Education Loan of ?0.0."
+CUST1397,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1129,Loan Assistance,How do I pay my EMI?,"Dear Customer_129, you have a Education Loan of ?489756.5."
+CUST1298,Card Management,"I lost my debit card, please block it.",Your card status is Blocked. We can help you update or block it as needed.
+CUST1025,Balance Inquiry,How much money do I have in my account?,"Dear Customer_25, your current balance is ?51928.81."
+CUST1396,Bill Payments & Reminders,How do I pay my electricity bill?,Your bill payment reminder has been set successfully.
+CUST1192,Loan Assistance,How do I pay my EMI?,"Dear Customer_192, you have a Home Loan of ?251549.85."
+CUST1425,Balance Inquiry,How much money do I have in my account?,"Dear Customer_425, your current balance is ?281035.29."
+CUST1126,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.
+CUST1401,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_401, your current balance is ?96358.33."
+CUST1335,Balance Inquiry,Can you tell me my current balance?,"Dear Customer_335, your current balance is ?420324.92."
+CUST1421,Complaint Management,I want to dispute a charge.,Your complaint has been registered. A support agent will reach out within 24 hours.
+CUST1340,Balance Inquiry,How much money do I have in my account?,"Dear Customer_340, your current balance is ?62412.67."
+CUST1234,Card Management,"My credit card expired, what should I do?",Your card status is Expired. We can help you update or block it as needed.

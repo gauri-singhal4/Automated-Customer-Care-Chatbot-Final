@@ -1,0 +1,501 @@
+Customer_ID,Customer_Name,Account_Type,Balance,Loan_Type,Loan_Amount,Card_Status,Branch,Phone,Email
+CUST1000,Customer_0,Savings,484438.69,Home Loan,737710.47,Expired,Mumbai,+919797253812,customer0@bankdemo.com
+CUST1001,Customer_1,Savings,297144.33,Home Loan,1049676.42,Blocked,Kolkata,+917259480404,customer1@bankdemo.com
+CUST1002,Customer_2,Current,217846.36,Home Loan,0,Lost Reported,Kolkata,+917737156422,customer2@bankdemo.com
+CUST1003,Customer_3,Current,194052.68,Education Loan,0,Blocked,Bangalore,+919487701478,customer3@bankdemo.com
+CUST1004,Customer_4,Fixed Deposit,63445.09,Home Loan,1783177.27,Active,Delhi,+918218908303,customer4@bankdemo.com
+CUST1005,Customer_5,Current,148708.19,Car Loan,1518707.86,Lost Reported,Chennai,+916611311534,customer5@bankdemo.com
+CUST1006,Customer_6,Fixed Deposit,86990.86,Home Loan,0,Active,Delhi,+917870224903,customer6@bankdemo.com
+CUST1007,Customer_7,Fixed Deposit,427177.7,Personal Loan,1401110.14,Lost Reported,Mumbai,+917635434048,customer7@bankdemo.com
+CUST1008,Customer_8,Savings,430551.84,Home Loan,0,Blocked,Mumbai,+916479308108,customer8@bankdemo.com
+CUST1009,Customer_9,Savings,440923.73,Car Loan,326214.39,Blocked,Hyderabad,+919296425332,customer9@bankdemo.com
+CUST1010,Customer_10,Fixed Deposit,54700.02,Education Loan,0,Blocked,Kolkata,+919176607661,customer10@bankdemo.com
+CUST1011,Customer_11,Fixed Deposit,189604.42,Education Loan,643800.38,Lost Reported,Hyderabad,+917856788046,customer11@bankdemo.com
+CUST1012,Customer_12,Current,460742.36,Personal Loan,0,Blocked,Mumbai,+918834192645,customer12@bankdemo.com
+CUST1013,Customer_13,Savings,349673.68,Home Loan,0,Active,Hyderabad,+916600837457,customer13@bankdemo.com
+CUST1014,Customer_14,Current,237495.53,Home Loan,1675188.99,Blocked,Bangalore,+918613978661,customer14@bankdemo.com
+CUST1015,Customer_15,Savings,6006.88,Car Loan,0,Lost Reported,Kolkata,+917318108674,customer15@bankdemo.com
+CUST1016,Customer_16,Savings,295246.1,Education Loan,0,Expired,Kolkata,+919298693287,customer16@bankdemo.com
+CUST1017,Customer_17,Current,21565.09,None,0,Lost Reported,Mumbai,+918254334562,customer17@bankdemo.com
+CUST1018,Customer_18,Current,118802.47,None,0,Expired,Kolkata,+919061721776,customer18@bankdemo.com
+CUST1019,Customer_19,Current,364090.84,Home Loan,294403.91,Expired,Bangalore,+917182230799,customer19@bankdemo.com
+CUST1020,Customer_20,Savings,127474.16,Car Loan,1401306.25,Lost Reported,Hyderabad,+919806899448,customer20@bankdemo.com
+CUST1021,Customer_21,Current,315057.53,Home Loan,1510981.6,Blocked,Delhi,+916573928155,customer21@bankdemo.com
+CUST1022,Customer_22,Savings,325653.01,None,429614.27,Active,Kolkata,+917327908988,customer22@bankdemo.com
+CUST1023,Customer_23,Savings,247821.61,Personal Loan,1104780.53,Blocked,Kolkata,+919467248059,customer23@bankdemo.com
+CUST1024,Customer_24,Savings,186564.63,None,0,Blocked,Hyderabad,+919901313801,customer24@bankdemo.com
+CUST1025,Customer_25,Savings,51928.81,Car Loan,1920487.65,Expired,Kolkata,+919457481677,customer25@bankdemo.com
+CUST1026,Customer_26,Fixed Deposit,324392.74,Education Loan,0,Lost Reported,Mumbai,+916963879233,customer26@bankdemo.com
+CUST1027,Customer_27,Fixed Deposit,436943.06,Home Loan,1888763.98,Blocked,Hyderabad,+919248004158,customer27@bankdemo.com
+CUST1028,Customer_28,Fixed Deposit,154808.85,None,0,Lost Reported,Mumbai,+919105378216,customer28@bankdemo.com
+CUST1029,Customer_29,Current,223374.02,Personal Loan,636431.16,Expired,Kolkata,+918341957572,customer29@bankdemo.com
+CUST1030,Customer_30,Current,166715.11,None,870422.47,Active,Mumbai,+919490163711,customer30@bankdemo.com
+CUST1031,Customer_31,Fixed Deposit,102012.85,Personal Loan,876295.78,Blocked,Kolkata,+918797218495,customer31@bankdemo.com
+CUST1032,Customer_32,Fixed Deposit,260031.52,Car Loan,1211576.45,Active,Mumbai,+919511876615,customer32@bankdemo.com
+CUST1033,Customer_33,Savings,18860.64,Home Loan,869922.77,Active,Kolkata,+917638903411,customer33@bankdemo.com
+CUST1034,Customer_34,Savings,112929.45,Education Loan,673466.98,Lost Reported,Hyderabad,+917012237178,customer34@bankdemo.com
+CUST1035,Customer_35,Savings,18903.54,None,0,Expired,Bangalore,+918049691216,customer35@bankdemo.com
+CUST1036,Customer_36,Fixed Deposit,161823.35,Education Loan,986634.25,Active,Delhi,+917346006122,customer36@bankdemo.com
+CUST1037,Customer_37,Current,338082.65,Car Loan,534266.19,Active,Hyderabad,+916934158417,customer37@bankdemo.com
+CUST1038,Customer_38,Savings,340634.22,None,1031786.74,Blocked,Bangalore,+916778267626,customer38@bankdemo.com
+CUST1039,Customer_39,Savings,142025.92,Education Loan,156767.33,Active,Chennai,+916189152645,customer39@bankdemo.com
+CUST1040,Customer_40,Current,394302.34,Education Loan,595982.43,Expired,Hyderabad,+919838331510,customer40@bankdemo.com
+CUST1041,Customer_41,Current,219531.92,Personal Loan,823347.06,Active,Hyderabad,+917744343839,customer41@bankdemo.com
+CUST1042,Customer_42,Current,308073.77,Personal Loan,0,Blocked,Delhi,+918293064473,customer42@bankdemo.com
+CUST1043,Customer_43,Savings,175184.82,Home Loan,836668.98,Active,Hyderabad,+917815990255,customer43@bankdemo.com
+CUST1044,Customer_44,Fixed Deposit,235254.72,None,1287015.4,Expired,Mumbai,+917944286283,customer44@bankdemo.com
+CUST1045,Customer_45,Fixed Deposit,457655.16,Education Loan,580913.4,Lost Reported,Delhi,+916572701978,customer45@bankdemo.com
+CUST1046,Customer_46,Fixed Deposit,429601.23,Car Loan,0,Lost Reported,Kolkata,+916749542345,customer46@bankdemo.com
+CUST1047,Customer_47,Savings,58317.51,Personal Loan,926958.61,Blocked,Kolkata,+916783969361,customer47@bankdemo.com
+CUST1048,Customer_48,Current,191984,Car Loan,0,Lost Reported,Bangalore,+918735182812,customer48@bankdemo.com
+CUST1049,Customer_49,Fixed Deposit,91489.16,Car Loan,448821.04,Blocked,Hyderabad,+919874296038,customer49@bankdemo.com
+CUST1050,Customer_50,Current,76817.22,Education Loan,0,Lost Reported,Hyderabad,+917440912097,customer50@bankdemo.com
+CUST1051,Customer_51,Fixed Deposit,376017.54,Education Loan,0,Blocked,Delhi,+916305770559,customer51@bankdemo.com
+CUST1052,Customer_52,Fixed Deposit,397799.77,Car Loan,1838847.61,Lost Reported,Chennai,+916557766528,customer52@bankdemo.com
+CUST1053,Customer_53,Current,55669.61,Home Loan,0,Blocked,Mumbai,+919395213945,customer53@bankdemo.com
+CUST1054,Customer_54,Savings,219696.51,None,0,Active,Hyderabad,+917931255762,customer54@bankdemo.com
+CUST1055,Customer_55,Fixed Deposit,104166,Personal Loan,1943829.47,Lost Reported,Delhi,+917847068628,customer55@bankdemo.com
+CUST1056,Customer_56,Fixed Deposit,433668.52,Home Loan,258482.64,Blocked,Kolkata,+919150074204,customer56@bankdemo.com
+CUST1057,Customer_57,Fixed Deposit,261326.31,Personal Loan,551835.19,Lost Reported,Bangalore,+917040703977,customer57@bankdemo.com
+CUST1058,Customer_58,Current,449886.49,Car Loan,1937502.55,Blocked,Kolkata,+916615923697,customer58@bankdemo.com
+CUST1059,Customer_59,Fixed Deposit,306222.46,Personal Loan,100163.32,Blocked,Bangalore,+916834276867,customer59@bankdemo.com
+CUST1060,Customer_60,Fixed Deposit,25138.1,Education Loan,0,Expired,Mumbai,+916916777848,customer60@bankdemo.com
+CUST1061,Customer_61,Savings,424077.74,Home Loan,0,Active,Kolkata,+917038614946,customer61@bankdemo.com
+CUST1062,Customer_62,Fixed Deposit,23882.66,Home Loan,716953.01,Active,Hyderabad,+917425980360,customer62@bankdemo.com
+CUST1063,Customer_63,Fixed Deposit,242982.41,None,1469016.81,Lost Reported,Chennai,+917405073507,customer63@bankdemo.com
+CUST1064,Customer_64,Current,448650.28,Personal Loan,0,Lost Reported,Kolkata,+916187821230,customer64@bankdemo.com
+CUST1065,Customer_65,Current,383922.03,Education Loan,1865037.05,Lost Reported,Hyderabad,+919855956874,customer65@bankdemo.com
+CUST1066,Customer_66,Savings,144921.24,Home Loan,802354.94,Lost Reported,Delhi,+917125115852,customer66@bankdemo.com
+CUST1067,Customer_67,Current,317031.1,Education Loan,1380457.92,Expired,Chennai,+918320109552,customer67@bankdemo.com
+CUST1068,Customer_68,Savings,43113.82,Car Loan,0,Blocked,Delhi,+919850589932,customer68@bankdemo.com
+CUST1069,Customer_69,Fixed Deposit,377149.2,Education Loan,209040.18,Lost Reported,Delhi,+918239556096,customer69@bankdemo.com
+CUST1070,Customer_70,Savings,352788.95,Education Loan,496379.41,Lost Reported,Chennai,+918163410786,customer70@bankdemo.com
+CUST1071,Customer_71,Current,187146.22,Education Loan,508454.12,Blocked,Hyderabad,+919938426424,customer71@bankdemo.com
+CUST1072,Customer_72,Current,353814.18,Education Loan,0,Blocked,Delhi,+917726482777,customer72@bankdemo.com
+CUST1073,Customer_73,Fixed Deposit,421504.78,Personal Loan,1170910.45,Lost Reported,Delhi,+918256125307,customer73@bankdemo.com
+CUST1074,Customer_74,Fixed Deposit,232957.44,None,0,Blocked,Hyderabad,+919569196876,customer74@bankdemo.com
+CUST1075,Customer_75,Savings,250300.1,Education Loan,1211140.21,Blocked,Chennai,+919692478899,customer75@bankdemo.com
+CUST1076,Customer_76,Fixed Deposit,247396.92,Personal Loan,481245.33,Blocked,Delhi,+917531397985,customer76@bankdemo.com
+CUST1077,Customer_77,Savings,290271.94,Personal Loan,0,Active,Kolkata,+916704145825,customer77@bankdemo.com
+CUST1078,Customer_78,Current,216829.01,None,60533.29,Lost Reported,Mumbai,+918214616893,customer78@bankdemo.com
+CUST1079,Customer_79,Savings,283038.45,None,1609300.61,Blocked,Delhi,+918238862790,customer79@bankdemo.com
+CUST1080,Customer_80,Fixed Deposit,309499.07,Home Loan,0,Expired,Bangalore,+918300915452,customer80@bankdemo.com
+CUST1081,Customer_81,Current,94607.63,Car Loan,0,Blocked,Hyderabad,+916391678616,customer81@bankdemo.com
+CUST1082,Customer_82,Current,248936.36,Personal Loan,1234210.13,Blocked,Kolkata,+916971371795,customer82@bankdemo.com
+CUST1083,Customer_83,Savings,67450.88,Education Loan,0,Blocked,Hyderabad,+917572804097,customer83@bankdemo.com
+CUST1084,Customer_84,Current,396512.63,Education Loan,239523.47,Lost Reported,Bangalore,+919777506996,customer84@bankdemo.com
+CUST1085,Customer_85,Fixed Deposit,266243.55,Personal Loan,0,Blocked,Bangalore,+917252949641,customer85@bankdemo.com
+CUST1086,Customer_86,Fixed Deposit,197800.34,Personal Loan,1534080.56,Active,Bangalore,+917746295346,customer86@bankdemo.com
+CUST1087,Customer_87,Current,219307.37,Personal Loan,0,Lost Reported,Chennai,+918296323025,customer87@bankdemo.com
+CUST1088,Customer_88,Fixed Deposit,14457.13,Car Loan,1883701.65,Active,Chennai,+916447897464,customer88@bankdemo.com
+CUST1089,Customer_89,Current,59004.47,None,787695.48,Lost Reported,Bangalore,+919614439292,customer89@bankdemo.com
+CUST1090,Customer_90,Savings,127590.43,Education Loan,1611128.42,Expired,Kolkata,+917389768296,customer90@bankdemo.com
+CUST1091,Customer_91,Current,179657.29,Home Loan,856887.64,Expired,Delhi,+918460040120,customer91@bankdemo.com
+CUST1092,Customer_92,Fixed Deposit,69931.45,Personal Loan,0,Blocked,Kolkata,+917488771758,customer92@bankdemo.com
+CUST1093,Customer_93,Savings,4295.83,Education Loan,1821931.04,Blocked,Kolkata,+916986326397,customer93@bankdemo.com
+CUST1094,Customer_94,Savings,417899.12,Personal Loan,0,Lost Reported,Hyderabad,+916521150328,customer94@bankdemo.com
+CUST1095,Customer_95,Current,310303.82,Car Loan,1052320.51,Lost Reported,Delhi,+918903044196,customer95@bankdemo.com
+CUST1096,Customer_96,Fixed Deposit,143300.88,None,1917846.08,Blocked,Chennai,+917538476804,customer96@bankdemo.com
+CUST1097,Customer_97,Fixed Deposit,476531.02,Education Loan,0,Expired,Kolkata,+917327571379,customer97@bankdemo.com
+CUST1098,Customer_98,Fixed Deposit,129622.13,None,0,Expired,Delhi,+918617347931,customer98@bankdemo.com
+CUST1099,Customer_99,Fixed Deposit,60318.23,None,1582109.53,Blocked,Delhi,+916759020256,customer99@bankdemo.com
+CUST1100,Customer_100,Fixed Deposit,486558.3,Education Loan,1459763.54,Expired,Bangalore,+916561586163,customer100@bankdemo.com
+CUST1101,Customer_101,Fixed Deposit,211018.7,Personal Loan,0,Lost Reported,Mumbai,+917020448038,customer101@bankdemo.com
+CUST1102,Customer_102,Current,153468.72,None,1901752.11,Active,Chennai,+916395271930,customer102@bankdemo.com
+CUST1103,Customer_103,Current,301745.61,None,1446040.08,Expired,Mumbai,+916723877798,customer103@bankdemo.com
+CUST1104,Customer_104,Savings,420625.24,None,0,Lost Reported,Chennai,+918157322041,customer104@bankdemo.com
+CUST1105,Customer_105,Current,443131.99,Personal Loan,0,Expired,Mumbai,+919783653976,customer105@bankdemo.com
+CUST1106,Customer_106,Savings,239699.94,None,477680.19,Expired,Delhi,+917465459472,customer106@bankdemo.com
+CUST1107,Customer_107,Savings,451533.08,Personal Loan,461367.59,Lost Reported,Mumbai,+916456610346,customer107@bankdemo.com
+CUST1108,Customer_108,Savings,140964.79,None,0,Blocked,Mumbai,+917637455162,customer108@bankdemo.com
+CUST1109,Customer_109,Savings,222894.44,None,0,Lost Reported,Delhi,+918227572184,customer109@bankdemo.com
+CUST1110,Customer_110,Current,373812.91,Car Loan,1802497.4,Lost Reported,Mumbai,+916497927193,customer110@bankdemo.com
+CUST1111,Customer_111,Fixed Deposit,113069.47,Home Loan,1331765.52,Blocked,Hyderabad,+919465972724,customer111@bankdemo.com
+CUST1112,Customer_112,Fixed Deposit,338224.54,Car Loan,769632.03,Expired,Hyderabad,+918903297321,customer112@bankdemo.com
+CUST1113,Customer_113,Current,263484.57,None,0,Blocked,Delhi,+919617168337,customer113@bankdemo.com
+CUST1114,Customer_114,Current,458222.94,None,1149580.3,Active,Kolkata,+917242422389,customer114@bankdemo.com
+CUST1115,Customer_115,Current,355040.14,Education Loan,0,Active,Mumbai,+917037312641,customer115@bankdemo.com
+CUST1116,Customer_116,Current,228992.92,Car Loan,1414640.87,Blocked,Bangalore,+919579472056,customer116@bankdemo.com
+CUST1117,Customer_117,Current,398886.1,Car Loan,0,Expired,Delhi,+918031732771,customer117@bankdemo.com
+CUST1118,Customer_118,Fixed Deposit,200270.99,None,0,Blocked,Delhi,+916536473172,customer118@bankdemo.com
+CUST1119,Customer_119,Current,210375.84,Car Loan,1862768.46,Expired,Mumbai,+918139015308,customer119@bankdemo.com
+CUST1120,Customer_120,Current,102090.2,Education Loan,1655711.92,Active,Delhi,+917913709903,customer120@bankdemo.com
+CUST1121,Customer_121,Current,172353.59,Education Loan,0,Active,Delhi,+917006645505,customer121@bankdemo.com
+CUST1122,Customer_122,Current,74501.34,Home Loan,1618573.45,Active,Mumbai,+918590616371,customer122@bankdemo.com
+CUST1123,Customer_123,Fixed Deposit,7584.11,Home Loan,0,Active,Kolkata,+918407045999,customer123@bankdemo.com
+CUST1124,Customer_124,Savings,180213.18,None,1360464.45,Lost Reported,Bangalore,+916146390070,customer124@bankdemo.com
+CUST1125,Customer_125,Savings,7035.64,Car Loan,1048846.89,Blocked,Hyderabad,+919674864713,customer125@bankdemo.com
+CUST1126,Customer_126,Savings,155928.19,Personal Loan,0,Expired,Hyderabad,+919296445287,customer126@bankdemo.com
+CUST1127,Customer_127,Savings,310782.73,Education Loan,1390091.02,Expired,Chennai,+917632481982,customer127@bankdemo.com
+CUST1128,Customer_128,Savings,193913.96,Education Loan,0,Expired,Bangalore,+918089298618,customer128@bankdemo.com
+CUST1129,Customer_129,Current,120741.69,Education Loan,489756.5,Expired,Chennai,+917223628406,customer129@bankdemo.com
+CUST1130,Customer_130,Savings,217966.83,Home Loan,0,Blocked,Kolkata,+918947790990,customer130@bankdemo.com
+CUST1131,Customer_131,Fixed Deposit,374793.41,Home Loan,0,Blocked,Kolkata,+918564875586,customer131@bankdemo.com
+CUST1132,Customer_132,Current,124736.38,Education Loan,0,Expired,Delhi,+919498217063,customer132@bankdemo.com
+CUST1133,Customer_133,Fixed Deposit,20668.94,Personal Loan,931398.82,Expired,Bangalore,+916994211969,customer133@bankdemo.com
+CUST1134,Customer_134,Savings,359356.24,Personal Loan,714898.26,Expired,Kolkata,+919111313708,customer134@bankdemo.com
+CUST1135,Customer_135,Current,399672.03,Car Loan,0,Expired,Chennai,+916724008114,customer135@bankdemo.com
+CUST1136,Customer_136,Fixed Deposit,219005.18,Home Loan,0,Expired,Bangalore,+918092616981,customer136@bankdemo.com
+CUST1137,Customer_137,Savings,441720.44,None,0,Active,Kolkata,+916752119470,customer137@bankdemo.com
+CUST1138,Customer_138,Current,391287.53,Home Loan,0,Active,Mumbai,+917233711495,customer138@bankdemo.com
+CUST1139,Customer_139,Current,245630.37,Home Loan,1044443.54,Blocked,Delhi,+916887458911,customer139@bankdemo.com
+CUST1140,Customer_140,Savings,257481.3,Personal Loan,1138822.48,Active,Chennai,+918161575995,customer140@bankdemo.com
+CUST1141,Customer_141,Current,80748.51,None,0,Blocked,Hyderabad,+918373376662,customer141@bankdemo.com
+CUST1142,Customer_142,Current,181147.52,None,0,Blocked,Kolkata,+919117993172,customer142@bankdemo.com
+CUST1143,Customer_143,Current,73913.34,Education Loan,0,Blocked,Kolkata,+916655493025,customer143@bankdemo.com
+CUST1144,Customer_144,Current,394703.78,Car Loan,1191791.44,Blocked,Kolkata,+916613361195,customer144@bankdemo.com
+CUST1145,Customer_145,Savings,42134.55,Car Loan,0,Blocked,Chennai,+918149160192,customer145@bankdemo.com
+CUST1146,Customer_146,Current,2376.26,Education Loan,1295345.12,Lost Reported,Bangalore,+919045032932,customer146@bankdemo.com
+CUST1147,Customer_147,Current,270083.55,Education Loan,423779.19,Lost Reported,Mumbai,+918617137260,customer147@bankdemo.com
+CUST1148,Customer_148,Fixed Deposit,221243.8,Education Loan,0,Expired,Delhi,+917893166426,customer148@bankdemo.com
+CUST1149,Customer_149,Savings,334817.34,Education Loan,1288508.36,Expired,Delhi,+918882598352,customer149@bankdemo.com
+CUST1150,Customer_150,Savings,409318.4,Personal Loan,0,Expired,Chennai,+917892505553,customer150@bankdemo.com
+CUST1151,Customer_151,Savings,255386.86,None,0,Expired,Hyderabad,+918911206686,customer151@bankdemo.com
+CUST1152,Customer_152,Savings,3976.47,Home Loan,0,Expired,Kolkata,+918038835123,customer152@bankdemo.com
+CUST1153,Customer_153,Current,495865.43,None,1409003.29,Blocked,Delhi,+916011567616,customer153@bankdemo.com
+CUST1154,Customer_154,Savings,30111.82,Personal Loan,1626713.43,Active,Hyderabad,+917188299417,customer154@bankdemo.com
+CUST1155,Customer_155,Current,334415.47,Personal Loan,1998879.49,Lost Reported,Delhi,+919289252041,customer155@bankdemo.com
+CUST1156,Customer_156,Savings,137390.32,Education Loan,0,Expired,Mumbai,+917777296955,customer156@bankdemo.com
+CUST1157,Customer_157,Fixed Deposit,270575.61,Car Loan,570918.65,Lost Reported,Bangalore,+916905648944,customer157@bankdemo.com
+CUST1158,Customer_158,Current,268442.65,Personal Loan,77342.64,Expired,Hyderabad,+919697711546,customer158@bankdemo.com
+CUST1159,Customer_159,Current,44023.64,Home Loan,0,Lost Reported,Delhi,+916355637842,customer159@bankdemo.com
+CUST1160,Customer_160,Savings,171969.31,Home Loan,0,Active,Mumbai,+916911267250,customer160@bankdemo.com
+CUST1161,Customer_161,Current,395115.23,Personal Loan,981184.42,Expired,Mumbai,+918000012991,customer161@bankdemo.com
+CUST1162,Customer_162,Savings,429830.92,Car Loan,0,Active,Mumbai,+917600638867,customer162@bankdemo.com
+CUST1163,Customer_163,Savings,409638.3,Car Loan,1603975.25,Lost Reported,Chennai,+919731668020,customer163@bankdemo.com
+CUST1164,Customer_164,Savings,145636.91,Education Loan,1569838.98,Active,Mumbai,+919334680807,customer164@bankdemo.com
+CUST1165,Customer_165,Savings,456174.52,Home Loan,1577147.17,Active,Bangalore,+917056528849,customer165@bankdemo.com
+CUST1166,Customer_166,Fixed Deposit,476449.59,Car Loan,0,Active,Chennai,+918405789560,customer166@bankdemo.com
+CUST1167,Customer_167,Fixed Deposit,116151.62,Car Loan,554129.96,Active,Bangalore,+918101389917,customer167@bankdemo.com
+CUST1168,Customer_168,Current,436558.53,Personal Loan,553058.52,Blocked,Mumbai,+916373000985,customer168@bankdemo.com
+CUST1169,Customer_169,Current,473931.95,None,255857.42,Active,Mumbai,+918311810858,customer169@bankdemo.com
+CUST1170,Customer_170,Fixed Deposit,10738.56,None,0,Blocked,Bangalore,+919144429933,customer170@bankdemo.com
+CUST1171,Customer_171,Current,218682.24,None,1522429.84,Blocked,Kolkata,+919053117567,customer171@bankdemo.com
+CUST1172,Customer_172,Current,387391.58,Personal Loan,1576944.5,Expired,Mumbai,+916795320773,customer172@bankdemo.com
+CUST1173,Customer_173,Fixed Deposit,217952.11,None,1230202.3,Blocked,Delhi,+918306239007,customer173@bankdemo.com
+CUST1174,Customer_174,Current,146849.03,Education Loan,416380.34,Expired,Bangalore,+917328972220,customer174@bankdemo.com
+CUST1175,Customer_175,Current,154760.16,Education Loan,1099967.14,Lost Reported,Kolkata,+916170418267,customer175@bankdemo.com
+CUST1176,Customer_176,Current,366930.02,Education Loan,444056.23,Expired,Kolkata,+917065419592,customer176@bankdemo.com
+CUST1177,Customer_177,Fixed Deposit,432928.18,Education Loan,0,Expired,Kolkata,+916466682584,customer177@bankdemo.com
+CUST1178,Customer_178,Savings,17342.79,Car Loan,1237505.62,Active,Delhi,+918063628230,customer178@bankdemo.com
+CUST1179,Customer_179,Savings,225059.2,None,1105231.52,Lost Reported,Chennai,+916446765839,customer179@bankdemo.com
+CUST1180,Customer_180,Current,477640.68,None,1639964.43,Expired,Delhi,+917738159959,customer180@bankdemo.com
+CUST1181,Customer_181,Fixed Deposit,397901.93,Personal Loan,0,Active,Hyderabad,+919711272543,customer181@bankdemo.com
+CUST1182,Customer_182,Fixed Deposit,37040.39,Car Loan,1031474.34,Blocked,Bangalore,+919306591243,customer182@bankdemo.com
+CUST1183,Customer_183,Current,371558.91,None,1076473.34,Blocked,Delhi,+917134129076,customer183@bankdemo.com
+CUST1184,Customer_184,Current,26922.71,None,0,Active,Chennai,+917683938420,customer184@bankdemo.com
+CUST1185,Customer_185,Savings,406861.01,Personal Loan,1134839.52,Lost Reported,Kolkata,+918772055444,customer185@bankdemo.com
+CUST1186,Customer_186,Current,39994.49,Education Loan,1331878.98,Blocked,Mumbai,+919915288596,customer186@bankdemo.com
+CUST1187,Customer_187,Fixed Deposit,410477.89,Car Loan,664027.28,Active,Bangalore,+919601898797,customer187@bankdemo.com
+CUST1188,Customer_188,Fixed Deposit,204040.78,Car Loan,0,Lost Reported,Chennai,+918510206411,customer188@bankdemo.com
+CUST1189,Customer_189,Current,393992.89,None,1104238.79,Expired,Mumbai,+918910234458,customer189@bankdemo.com
+CUST1190,Customer_190,Current,145758.38,Home Loan,887267.27,Lost Reported,Delhi,+916580868027,customer190@bankdemo.com
+CUST1191,Customer_191,Current,436525.83,Car Loan,0,Active,Bangalore,+917362894091,customer191@bankdemo.com
+CUST1192,Customer_192,Savings,53533.38,Home Loan,251549.85,Lost Reported,Kolkata,+919771258631,customer192@bankdemo.com
+CUST1193,Customer_193,Current,88790.7,Home Loan,1853360.86,Active,Delhi,+918416856893,customer193@bankdemo.com
+CUST1194,Customer_194,Savings,58327,Car Loan,1214788.86,Expired,Bangalore,+916939543542,customer194@bankdemo.com
+CUST1195,Customer_195,Savings,210303.56,Personal Loan,1248775.86,Active,Mumbai,+919161014603,customer195@bankdemo.com
+CUST1196,Customer_196,Current,64728.04,Car Loan,0,Active,Kolkata,+916668566453,customer196@bankdemo.com
+CUST1197,Customer_197,Savings,481654.13,Education Loan,436229.08,Blocked,Chennai,+916273975924,customer197@bankdemo.com
+CUST1198,Customer_198,Fixed Deposit,222511.74,Car Loan,0,Active,Bangalore,+917892480239,customer198@bankdemo.com
+CUST1199,Customer_199,Savings,111821.72,Car Loan,0,Lost Reported,Kolkata,+918039902322,customer199@bankdemo.com
+CUST1200,Customer_200,Current,435505.86,Education Loan,98491.16,Active,Kolkata,+918211553106,customer200@bankdemo.com
+CUST1201,Customer_201,Current,348927.82,Education Loan,0,Active,Chennai,+918463302505,customer201@bankdemo.com
+CUST1202,Customer_202,Current,202308.15,Home Loan,1745343.01,Expired,Chennai,+917909351301,customer202@bankdemo.com
+CUST1203,Customer_203,Savings,490154.88,Car Loan,0,Blocked,Kolkata,+919715751909,customer203@bankdemo.com
+CUST1204,Customer_204,Savings,108537.77,Personal Loan,0,Lost Reported,Delhi,+918442046355,customer204@bankdemo.com
+CUST1205,Customer_205,Savings,182759.88,Education Loan,0,Expired,Hyderabad,+918616386551,customer205@bankdemo.com
+CUST1206,Customer_206,Current,346045.49,None,1806271.98,Lost Reported,Mumbai,+917185286218,customer206@bankdemo.com
+CUST1207,Customer_207,Fixed Deposit,270654.79,Education Loan,0,Blocked,Hyderabad,+918260470984,customer207@bankdemo.com
+CUST1208,Customer_208,Savings,3431.23,Education Loan,0,Active,Hyderabad,+917705132373,customer208@bankdemo.com
+CUST1209,Customer_209,Current,66106.48,None,1827470.75,Lost Reported,Chennai,+916340470592,customer209@bankdemo.com
+CUST1210,Customer_210,Current,351300.13,Car Loan,0,Expired,Hyderabad,+919919466202,customer210@bankdemo.com
+CUST1211,Customer_211,Current,390472.2,Education Loan,0,Expired,Mumbai,+916011303313,customer211@bankdemo.com
+CUST1212,Customer_212,Current,166396.25,None,310141.4,Active,Hyderabad,+917679137449,customer212@bankdemo.com
+CUST1213,Customer_213,Savings,259114.13,Education Loan,1005166.26,Expired,Mumbai,+917556095075,customer213@bankdemo.com
+CUST1214,Customer_214,Savings,165486.17,None,0,Blocked,Hyderabad,+917068303416,customer214@bankdemo.com
+CUST1215,Customer_215,Current,73461.69,Education Loan,1602012.62,Expired,Bangalore,+917421189674,customer215@bankdemo.com
+CUST1216,Customer_216,Savings,241070.33,Car Loan,1507732.88,Lost Reported,Bangalore,+919287888226,customer216@bankdemo.com
+CUST1217,Customer_217,Fixed Deposit,140964.64,Personal Loan,1269188.28,Lost Reported,Delhi,+917464061367,customer217@bankdemo.com
+CUST1218,Customer_218,Current,52512.22,None,0,Active,Chennai,+919058168655,customer218@bankdemo.com
+CUST1219,Customer_219,Current,95614.75,Car Loan,810641.78,Expired,Mumbai,+916669358686,customer219@bankdemo.com
+CUST1220,Customer_220,Savings,470637.78,Personal Loan,1615882.7,Active,Kolkata,+917565674695,customer220@bankdemo.com
+CUST1221,Customer_221,Current,389785.21,Education Loan,0,Expired,Mumbai,+919307783229,customer221@bankdemo.com
+CUST1222,Customer_222,Current,447644.28,Home Loan,0,Lost Reported,Delhi,+916432521934,customer222@bankdemo.com
+CUST1223,Customer_223,Current,437296.39,Education Loan,1189259.52,Lost Reported,Bangalore,+918414933215,customer223@bankdemo.com
+CUST1224,Customer_224,Current,312084.16,Education Loan,1976471.39,Active,Bangalore,+917576418323,customer224@bankdemo.com
+CUST1225,Customer_225,Current,475025.81,Car Loan,0,Active,Chennai,+919053551432,customer225@bankdemo.com
+CUST1226,Customer_226,Current,145841.45,None,0,Active,Delhi,+917261680402,customer226@bankdemo.com
+CUST1227,Customer_227,Current,183729.93,Home Loan,0,Lost Reported,Mumbai,+916129228842,customer227@bankdemo.com
+CUST1228,Customer_228,Current,146662.61,None,1592006.28,Lost Reported,Delhi,+916326671093,customer228@bankdemo.com
+CUST1229,Customer_229,Fixed Deposit,222674.12,Home Loan,520699.83,Blocked,Mumbai,+916044209558,customer229@bankdemo.com
+CUST1230,Customer_230,Fixed Deposit,145639.7,Car Loan,0,Active,Delhi,+918729497279,customer230@bankdemo.com
+CUST1231,Customer_231,Savings,170656.87,Car Loan,1161399.69,Active,Hyderabad,+918023774353,customer231@bankdemo.com
+CUST1232,Customer_232,Savings,5850.54,Personal Loan,1769371.19,Lost Reported,Chennai,+916714792057,customer232@bankdemo.com
+CUST1233,Customer_233,Fixed Deposit,482050.56,Home Loan,668975.56,Active,Bangalore,+918087016510,customer233@bankdemo.com
+CUST1234,Customer_234,Fixed Deposit,278880.76,Car Loan,1811842.93,Expired,Bangalore,+918289422949,customer234@bankdemo.com
+CUST1235,Customer_235,Savings,247470.78,Education Loan,1112698.48,Lost Reported,Bangalore,+917804375328,customer235@bankdemo.com
+CUST1236,Customer_236,Current,41720.45,Car Loan,0,Lost Reported,Bangalore,+918962915265,customer236@bankdemo.com
+CUST1237,Customer_237,Savings,163517.85,Car Loan,1371624.36,Active,Bangalore,+917358153646,customer237@bankdemo.com
+CUST1238,Customer_238,Current,271376.39,Education Loan,0,Expired,Mumbai,+918836447939,customer238@bankdemo.com
+CUST1239,Customer_239,Current,120683.19,Personal Loan,0,Expired,Hyderabad,+919636314511,customer239@bankdemo.com
+CUST1240,Customer_240,Savings,448837.68,Personal Loan,0,Active,Mumbai,+916979321838,customer240@bankdemo.com
+CUST1241,Customer_241,Fixed Deposit,479684.46,Personal Loan,632130.9,Active,Bangalore,+919759292834,customer241@bankdemo.com
+CUST1242,Customer_242,Current,369672.74,Home Loan,318779.41,Expired,Bangalore,+919537284363,customer242@bankdemo.com
+CUST1243,Customer_243,Fixed Deposit,255736.04,Car Loan,1083943.88,Active,Mumbai,+916770435641,customer243@bankdemo.com
+CUST1244,Customer_244,Savings,359428.17,None,0,Lost Reported,Kolkata,+919018653647,customer244@bankdemo.com
+CUST1245,Customer_245,Current,333492.75,Personal Loan,677968.71,Expired,Delhi,+919313675782,customer245@bankdemo.com
+CUST1246,Customer_246,Fixed Deposit,453381.57,Home Loan,0,Blocked,Mumbai,+918954754900,customer246@bankdemo.com
+CUST1247,Customer_247,Fixed Deposit,64357.65,Home Loan,688341.22,Active,Hyderabad,+917459906749,customer247@bankdemo.com
+CUST1248,Customer_248,Savings,142866.7,Home Loan,1431006.19,Active,Bangalore,+919762898738,customer248@bankdemo.com
+CUST1249,Customer_249,Savings,199544.6,None,0,Active,Delhi,+917807760409,customer249@bankdemo.com
+CUST1250,Customer_250,Savings,306931.76,Home Loan,1122858.03,Blocked,Hyderabad,+918042701966,customer250@bankdemo.com
+CUST1251,Customer_251,Savings,291628.86,None,847036.81,Lost Reported,Hyderabad,+916063762819,customer251@bankdemo.com
+CUST1252,Customer_252,Current,5904.43,Car Loan,1022872.69,Expired,Mumbai,+916937122881,customer252@bankdemo.com
+CUST1253,Customer_253,Current,137425.32,Home Loan,0,Blocked,Hyderabad,+917456779513,customer253@bankdemo.com
+CUST1254,Customer_254,Current,119319.76,Education Loan,148443.7,Expired,Kolkata,+919926621883,customer254@bankdemo.com
+CUST1255,Customer_255,Current,468095.05,Personal Loan,942341.54,Active,Hyderabad,+918118057240,customer255@bankdemo.com
+CUST1256,Customer_256,Savings,194355.95,Education Loan,1029689.78,Active,Hyderabad,+916116521867,customer256@bankdemo.com
+CUST1257,Customer_257,Savings,126207.98,None,0,Lost Reported,Hyderabad,+916423135716,customer257@bankdemo.com
+CUST1258,Customer_258,Current,283233.41,Car Loan,635134.85,Blocked,Kolkata,+918763893198,customer258@bankdemo.com
+CUST1259,Customer_259,Fixed Deposit,448818.29,Home Loan,1610295.5,Lost Reported,Delhi,+919372152050,customer259@bankdemo.com
+CUST1260,Customer_260,Fixed Deposit,217997.72,Education Loan,795287.91,Blocked,Chennai,+918263793966,customer260@bankdemo.com
+CUST1261,Customer_261,Fixed Deposit,395482.01,Home Loan,461720.88,Blocked,Chennai,+916424947218,customer261@bankdemo.com
+CUST1262,Customer_262,Savings,15536.9,None,0,Active,Chennai,+919753735089,customer262@bankdemo.com
+CUST1263,Customer_263,Fixed Deposit,482677.67,None,0,Blocked,Bangalore,+919501365374,customer263@bankdemo.com
+CUST1264,Customer_264,Fixed Deposit,316490.08,Education Loan,1743669.55,Active,Delhi,+918295484056,customer264@bankdemo.com
+CUST1265,Customer_265,Fixed Deposit,220683.67,Car Loan,1916139.5,Lost Reported,Chennai,+918648777958,customer265@bankdemo.com
+CUST1266,Customer_266,Current,196770.39,None,767624.08,Expired,Chennai,+917651322976,customer266@bankdemo.com
+CUST1267,Customer_267,Current,321479.33,None,0,Active,Kolkata,+919677601080,customer267@bankdemo.com
+CUST1268,Customer_268,Fixed Deposit,404783.06,Car Loan,932809.24,Active,Bangalore,+916960935137,customer268@bankdemo.com
+CUST1269,Customer_269,Current,393127.52,Home Loan,0,Expired,Kolkata,+917958545622,customer269@bankdemo.com
+CUST1270,Customer_270,Current,28858.81,Personal Loan,0,Expired,Delhi,+916145521769,customer270@bankdemo.com
+CUST1271,Customer_271,Fixed Deposit,132520.1,Education Loan,1214792.28,Active,Mumbai,+917688565194,customer271@bankdemo.com
+CUST1272,Customer_272,Fixed Deposit,23401.1,None,0,Expired,Chennai,+919474351053,customer272@bankdemo.com
+CUST1273,Customer_273,Current,394394.64,Personal Loan,1810112.14,Lost Reported,Mumbai,+917262237234,customer273@bankdemo.com
+CUST1274,Customer_274,Savings,147340.91,Home Loan,631839.53,Active,Bangalore,+917506360859,customer274@bankdemo.com
+CUST1275,Customer_275,Savings,17598.12,Car Loan,0,Expired,Delhi,+919844535730,customer275@bankdemo.com
+CUST1276,Customer_276,Current,201066.42,Car Loan,1887234.49,Blocked,Mumbai,+917266174570,customer276@bankdemo.com
+CUST1277,Customer_277,Current,36111.69,Car Loan,1879940.39,Expired,Bangalore,+919186164030,customer277@bankdemo.com
+CUST1278,Customer_278,Fixed Deposit,455052.2,Education Loan,0,Lost Reported,Bangalore,+919299466776,customer278@bankdemo.com
+CUST1279,Customer_279,Savings,77246.9,Education Loan,187766.75,Lost Reported,Mumbai,+919648411357,customer279@bankdemo.com
+CUST1280,Customer_280,Savings,194448.3,Personal Loan,295528.65,Active,Bangalore,+919766249411,customer280@bankdemo.com
+CUST1281,Customer_281,Fixed Deposit,125899.96,Car Loan,320033.92,Active,Chennai,+917255331951,customer281@bankdemo.com
+CUST1282,Customer_282,Fixed Deposit,158134.15,Personal Loan,1890533.79,Blocked,Chennai,+917716145606,customer282@bankdemo.com
+CUST1283,Customer_283,Current,135216.55,Car Loan,0,Active,Bangalore,+916514041291,customer283@bankdemo.com
+CUST1284,Customer_284,Fixed Deposit,477735.87,Personal Loan,0,Blocked,Mumbai,+917589326235,customer284@bankdemo.com
+CUST1285,Customer_285,Fixed Deposit,218883.94,Education Loan,387148.98,Lost Reported,Mumbai,+918671866046,customer285@bankdemo.com
+CUST1286,Customer_286,Savings,336991.04,Car Loan,1386314.18,Lost Reported,Delhi,+919754070603,customer286@bankdemo.com
+CUST1287,Customer_287,Fixed Deposit,487372.5,Home Loan,218648.47,Lost Reported,Mumbai,+918972807374,customer287@bankdemo.com
+CUST1288,Customer_288,Current,418854.42,Personal Loan,248064.5,Active,Mumbai,+918158780373,customer288@bankdemo.com
+CUST1289,Customer_289,Current,202525.98,Car Loan,0,Active,Hyderabad,+919087935828,customer289@bankdemo.com
+CUST1290,Customer_290,Current,89681.31,Education Loan,0,Lost Reported,Bangalore,+919994543766,customer290@bankdemo.com
+CUST1291,Customer_291,Fixed Deposit,198514.52,Home Loan,937886,Blocked,Mumbai,+918582234706,customer291@bankdemo.com
+CUST1292,Customer_292,Current,145814.18,Personal Loan,0,Lost Reported,Bangalore,+916861611909,customer292@bankdemo.com
+CUST1293,Customer_293,Savings,112461.22,Personal Loan,185262.09,Expired,Bangalore,+916513738972,customer293@bankdemo.com
+CUST1294,Customer_294,Current,451204.29,Home Loan,933138.19,Blocked,Delhi,+916261920443,customer294@bankdemo.com
+CUST1295,Customer_295,Fixed Deposit,96916.75,Car Loan,0,Lost Reported,Hyderabad,+918302343340,customer295@bankdemo.com
+CUST1296,Customer_296,Current,439902.27,Education Loan,1988428.9,Expired,Hyderabad,+919517558821,customer296@bankdemo.com
+CUST1297,Customer_297,Fixed Deposit,43589.47,Education Loan,516636.17,Blocked,Mumbai,+917533611607,customer297@bankdemo.com
+CUST1298,Customer_298,Fixed Deposit,361363.27,None,1056137.55,Blocked,Kolkata,+918223842701,customer298@bankdemo.com
+CUST1299,Customer_299,Fixed Deposit,254904.17,None,514445.72,Expired,Delhi,+916782100777,customer299@bankdemo.com
+CUST1300,Customer_300,Fixed Deposit,59380.49,Personal Loan,94132.93,Lost Reported,Chennai,+916983470314,customer300@bankdemo.com
+CUST1301,Customer_301,Current,492601.98,Personal Loan,1443194.72,Active,Delhi,+917850105003,customer301@bankdemo.com
+CUST1302,Customer_302,Savings,191975.64,Car Loan,1109074.32,Expired,Mumbai,+919315281939,customer302@bankdemo.com
+CUST1303,Customer_303,Fixed Deposit,119817.89,Education Loan,0,Expired,Bangalore,+916998327212,customer303@bankdemo.com
+CUST1304,Customer_304,Savings,372481.06,Car Loan,1402282.31,Expired,Chennai,+919652912307,customer304@bankdemo.com
+CUST1305,Customer_305,Current,209333.43,Home Loan,585131.72,Lost Reported,Mumbai,+919276702486,customer305@bankdemo.com
+CUST1306,Customer_306,Fixed Deposit,371209.6,Home Loan,465183.88,Expired,Delhi,+918124659684,customer306@bankdemo.com
+CUST1307,Customer_307,Savings,412704.36,Personal Loan,0,Active,Delhi,+918827797228,customer307@bankdemo.com
+CUST1308,Customer_308,Fixed Deposit,294640.41,Home Loan,1338670.96,Expired,Bangalore,+918195985182,customer308@bankdemo.com
+CUST1309,Customer_309,Fixed Deposit,271692.91,Education Loan,0,Blocked,Mumbai,+919390924444,customer309@bankdemo.com
+CUST1310,Customer_310,Current,112219.76,Personal Loan,0,Active,Kolkata,+917158897015,customer310@bankdemo.com
+CUST1311,Customer_311,Savings,495225.68,Car Loan,0,Active,Hyderabad,+918104787675,customer311@bankdemo.com
+CUST1312,Customer_312,Savings,114774.15,Education Loan,0,Lost Reported,Bangalore,+917217967411,customer312@bankdemo.com
+CUST1313,Customer_313,Current,213824.83,Car Loan,324083.71,Active,Bangalore,+918849430671,customer313@bankdemo.com
+CUST1314,Customer_314,Current,212969.85,Car Loan,0,Expired,Bangalore,+917624152944,customer314@bankdemo.com
+CUST1315,Customer_315,Savings,191325.03,Personal Loan,81409.44,Blocked,Kolkata,+917159056421,customer315@bankdemo.com
+CUST1316,Customer_316,Savings,437179.53,None,1750506.72,Lost Reported,Hyderabad,+919251911845,customer316@bankdemo.com
+CUST1317,Customer_317,Savings,384778.92,Car Loan,1697603.3,Blocked,Hyderabad,+916213757441,customer317@bankdemo.com
+CUST1318,Customer_318,Fixed Deposit,347461.85,Home Loan,0,Expired,Delhi,+919073112591,customer318@bankdemo.com
+CUST1319,Customer_319,Current,178510.18,Education Loan,0,Lost Reported,Kolkata,+919104381328,customer319@bankdemo.com
+CUST1320,Customer_320,Savings,269423.21,Personal Loan,610903.63,Lost Reported,Delhi,+919331628389,customer320@bankdemo.com
+CUST1321,Customer_321,Savings,285379.08,Home Loan,1190310.41,Blocked,Mumbai,+919072375789,customer321@bankdemo.com
+CUST1322,Customer_322,Current,369936.58,Education Loan,415385.67,Lost Reported,Bangalore,+916691534551,customer322@bankdemo.com
+CUST1323,Customer_323,Current,243212.45,Education Loan,0,Lost Reported,Delhi,+917370481075,customer323@bankdemo.com
+CUST1324,Customer_324,Fixed Deposit,393748.76,Personal Loan,0,Expired,Hyderabad,+918737749789,customer324@bankdemo.com
+CUST1325,Customer_325,Savings,455893.02,Home Loan,338667.6,Expired,Hyderabad,+916755401537,customer325@bankdemo.com
+CUST1326,Customer_326,Savings,495187.22,Personal Loan,0,Active,Kolkata,+918067498274,customer326@bankdemo.com
+CUST1327,Customer_327,Fixed Deposit,327878.31,Home Loan,1760864.32,Lost Reported,Kolkata,+917240026346,customer327@bankdemo.com
+CUST1328,Customer_328,Savings,113028.3,Car Loan,1789819.05,Blocked,Mumbai,+918935337123,customer328@bankdemo.com
+CUST1329,Customer_329,Current,447728.96,Home Loan,0,Expired,Delhi,+916405941602,customer329@bankdemo.com
+CUST1330,Customer_330,Current,223019.46,Home Loan,685095.97,Blocked,Kolkata,+917249731056,customer330@bankdemo.com
+CUST1331,Customer_331,Fixed Deposit,166825.32,Car Loan,481994.24,Lost Reported,Mumbai,+917098565804,customer331@bankdemo.com
+CUST1332,Customer_332,Fixed Deposit,326071.38,Personal Loan,329415.11,Blocked,Hyderabad,+919865623759,customer332@bankdemo.com
+CUST1333,Customer_333,Current,165382.27,Home Loan,1567652.12,Lost Reported,Chennai,+919775911060,customer333@bankdemo.com
+CUST1334,Customer_334,Fixed Deposit,163436.22,None,0,Lost Reported,Chennai,+916695979197,customer334@bankdemo.com
+CUST1335,Customer_335,Current,420324.92,Home Loan,0,Active,Mumbai,+919406607317,customer335@bankdemo.com
+CUST1336,Customer_336,Fixed Deposit,272753.23,None,1273188.86,Active,Delhi,+917313949646,customer336@bankdemo.com
+CUST1337,Customer_337,Current,339605.48,Home Loan,0,Active,Bangalore,+917214453891,customer337@bankdemo.com
+CUST1338,Customer_338,Fixed Deposit,269672.13,None,1347364.57,Blocked,Delhi,+918301102307,customer338@bankdemo.com
+CUST1339,Customer_339,Savings,12748.82,Home Loan,1653154.99,Expired,Bangalore,+917786866251,customer339@bankdemo.com
+CUST1340,Customer_340,Current,62412.67,None,0,Active,Mumbai,+917105021689,customer340@bankdemo.com
+CUST1341,Customer_341,Current,145663.89,Education Loan,824548.39,Active,Mumbai,+918383924171,customer341@bankdemo.com
+CUST1342,Customer_342,Savings,202864.86,Personal Loan,1750186.57,Blocked,Chennai,+919798155248,customer342@bankdemo.com
+CUST1343,Customer_343,Current,376393.46,Education Loan,273455.43,Lost Reported,Hyderabad,+916629808713,customer343@bankdemo.com
+CUST1344,Customer_344,Savings,466351.34,Home Loan,1334277.4,Lost Reported,Kolkata,+916460043008,customer344@bankdemo.com
+CUST1345,Customer_345,Savings,187305.61,None,0,Expired,Kolkata,+916381592416,customer345@bankdemo.com
+CUST1346,Customer_346,Savings,374320.22,None,567432.72,Lost Reported,Kolkata,+917942648955,customer346@bankdemo.com
+CUST1347,Customer_347,Current,402682.53,Education Loan,0,Blocked,Mumbai,+918904450606,customer347@bankdemo.com
+CUST1348,Customer_348,Current,299796.7,None,1098681.19,Blocked,Delhi,+916737379721,customer348@bankdemo.com
+CUST1349,Customer_349,Savings,131206.68,Education Loan,0,Expired,Mumbai,+919274496626,customer349@bankdemo.com
+CUST1350,Customer_350,Fixed Deposit,464042.91,Home Loan,1511131.08,Expired,Hyderabad,+917398523319,customer350@bankdemo.com
+CUST1351,Customer_351,Savings,214483.83,Education Loan,0,Blocked,Mumbai,+918196553262,customer351@bankdemo.com
+CUST1352,Customer_352,Current,425145.64,Home Loan,0,Active,Chennai,+916410397731,customer352@bankdemo.com
+CUST1353,Customer_353,Current,289917.77,Education Loan,0,Expired,Kolkata,+918297335085,customer353@bankdemo.com
+CUST1354,Customer_354,Fixed Deposit,357389.42,Education Loan,777728.66,Expired,Delhi,+919084918082,customer354@bankdemo.com
+CUST1355,Customer_355,Current,443706.72,Education Loan,1498082.14,Blocked,Mumbai,+918101578204,customer355@bankdemo.com
+CUST1356,Customer_356,Savings,9265.65,None,0,Blocked,Bangalore,+918027419260,customer356@bankdemo.com
+CUST1357,Customer_357,Savings,346060.05,None,753086.58,Active,Delhi,+918420746751,customer357@bankdemo.com
+CUST1358,Customer_358,Savings,82522.23,Education Loan,0,Active,Kolkata,+917183965963,customer358@bankdemo.com
+CUST1359,Customer_359,Current,206999.44,Personal Loan,0,Active,Kolkata,+918923886390,customer359@bankdemo.com
+CUST1360,Customer_360,Fixed Deposit,177961.42,Education Loan,401219.17,Expired,Chennai,+919530201699,customer360@bankdemo.com
+CUST1361,Customer_361,Savings,273889.29,Personal Loan,236968.77,Lost Reported,Hyderabad,+918837531977,customer361@bankdemo.com
+CUST1362,Customer_362,Savings,251653.6,Personal Loan,259651.17,Expired,Bangalore,+919145313159,customer362@bankdemo.com
+CUST1363,Customer_363,Savings,364057.76,Car Loan,0,Active,Bangalore,+918938796766,customer363@bankdemo.com
+CUST1364,Customer_364,Current,138705.51,Personal Loan,1010619.99,Lost Reported,Mumbai,+918422607592,customer364@bankdemo.com
+CUST1365,Customer_365,Fixed Deposit,144174.87,Car Loan,217915.43,Blocked,Chennai,+916763714212,customer365@bankdemo.com
+CUST1366,Customer_366,Savings,339000.99,Education Loan,0,Expired,Bangalore,+917412634634,customer366@bankdemo.com
+CUST1367,Customer_367,Current,322094.06,Home Loan,1686768.37,Active,Mumbai,+919012629016,customer367@bankdemo.com
+CUST1368,Customer_368,Current,154760.29,Home Loan,430442.12,Lost Reported,Delhi,+918236591648,customer368@bankdemo.com
+CUST1369,Customer_369,Current,93748.98,Car Loan,0,Blocked,Mumbai,+916096910518,customer369@bankdemo.com
+CUST1370,Customer_370,Current,31282.63,Car Loan,1033230.86,Lost Reported,Bangalore,+918474688106,customer370@bankdemo.com
+CUST1371,Customer_371,Current,41507.68,Education Loan,695780.73,Expired,Delhi,+919069679565,customer371@bankdemo.com
+CUST1372,Customer_372,Fixed Deposit,212038.32,Education Loan,1215270.99,Lost Reported,Kolkata,+916237184208,customer372@bankdemo.com
+CUST1373,Customer_373,Current,41670.28,None,1812462.74,Lost Reported,Kolkata,+918008434606,customer373@bankdemo.com
+CUST1374,Customer_374,Fixed Deposit,170247.33,Education Loan,1736834.9,Lost Reported,Bangalore,+919729456953,customer374@bankdemo.com
+CUST1375,Customer_375,Fixed Deposit,204802.25,None,565371.79,Lost Reported,Bangalore,+917358817828,customer375@bankdemo.com
+CUST1376,Customer_376,Fixed Deposit,236511.52,None,1618047.69,Expired,Mumbai,+918981448370,customer376@bankdemo.com
+CUST1377,Customer_377,Savings,303505.21,None,1982453.22,Lost Reported,Kolkata,+917160529687,customer377@bankdemo.com
+CUST1378,Customer_378,Savings,401175.15,Personal Loan,852702.1,Expired,Mumbai,+916991300807,customer378@bankdemo.com
+CUST1379,Customer_379,Current,48811.04,Home Loan,1437883.72,Blocked,Kolkata,+917259149088,customer379@bankdemo.com
+CUST1380,Customer_380,Current,109556.22,Home Loan,1194179.43,Lost Reported,Bangalore,+917772525248,customer380@bankdemo.com
+CUST1381,Customer_381,Current,157560.9,Education Loan,268072.78,Expired,Chennai,+916153669186,customer381@bankdemo.com
+CUST1382,Customer_382,Fixed Deposit,30258.68,Education Loan,1940851.15,Lost Reported,Hyderabad,+917382632930,customer382@bankdemo.com
+CUST1383,Customer_383,Savings,244260.97,Education Loan,386690.32,Lost Reported,Chennai,+916022475494,customer383@bankdemo.com
+CUST1384,Customer_384,Fixed Deposit,399804.12,Car Loan,0,Lost Reported,Chennai,+918706894759,customer384@bankdemo.com
+CUST1385,Customer_385,Savings,62064.16,Education Loan,0,Active,Chennai,+917342771683,customer385@bankdemo.com
+CUST1386,Customer_386,Savings,36645.06,Personal Loan,0,Active,Delhi,+919749421046,customer386@bankdemo.com
+CUST1387,Customer_387,Fixed Deposit,478911.91,None,1520117.73,Expired,Delhi,+918882422434,customer387@bankdemo.com
+CUST1388,Customer_388,Current,463507.2,Personal Loan,1437302.95,Active,Mumbai,+918086644322,customer388@bankdemo.com
+CUST1389,Customer_389,Fixed Deposit,348245.58,Personal Loan,0,Lost Reported,Delhi,+919190223137,customer389@bankdemo.com
+CUST1390,Customer_390,Savings,160754.66,Personal Loan,0,Active,Kolkata,+919302008047,customer390@bankdemo.com
+CUST1391,Customer_391,Current,430010.55,Personal Loan,0,Active,Chennai,+919438443677,customer391@bankdemo.com
+CUST1392,Customer_392,Current,8808.09,Car Loan,1780168.81,Lost Reported,Kolkata,+916750395139,customer392@bankdemo.com
+CUST1393,Customer_393,Fixed Deposit,81840.15,Car Loan,1496917.81,Lost Reported,Delhi,+916698219658,customer393@bankdemo.com
+CUST1394,Customer_394,Fixed Deposit,115965.83,Car Loan,0,Lost Reported,Delhi,+919289813253,customer394@bankdemo.com
+CUST1395,Customer_395,Savings,233426.67,Education Loan,0,Active,Bangalore,+918061130794,customer395@bankdemo.com
+CUST1396,Customer_396,Savings,111234.97,Car Loan,1210899.17,Blocked,Mumbai,+917008107996,customer396@bankdemo.com
+CUST1397,Customer_397,Savings,149426.85,Car Loan,0,Blocked,Mumbai,+919247203349,customer397@bankdemo.com
+CUST1398,Customer_398,Fixed Deposit,127925.69,None,624243.87,Lost Reported,Hyderabad,+917748968045,customer398@bankdemo.com
+CUST1399,Customer_399,Fixed Deposit,286199.81,None,1420013.23,Active,Kolkata,+916948053589,customer399@bankdemo.com
+CUST1400,Customer_400,Savings,266294.01,None,0,Blocked,Kolkata,+918561360384,customer400@bankdemo.com
+CUST1401,Customer_401,Savings,96358.33,None,1948484.31,Active,Delhi,+918161379183,customer401@bankdemo.com
+CUST1402,Customer_402,Current,292816.82,None,0,Expired,Hyderabad,+918366505681,customer402@bankdemo.com
+CUST1403,Customer_403,Current,276119.47,None,348441.2,Lost Reported,Delhi,+918952591734,customer403@bankdemo.com
+CUST1404,Customer_404,Savings,61827.64,Home Loan,0,Blocked,Delhi,+917084163782,customer404@bankdemo.com
+CUST1405,Customer_405,Current,216665.05,Home Loan,371797.66,Expired,Delhi,+916767425890,customer405@bankdemo.com
+CUST1406,Customer_406,Current,92486.49,Personal Loan,0,Active,Delhi,+919658931475,customer406@bankdemo.com
+CUST1407,Customer_407,Fixed Deposit,358915.06,None,1507631.55,Expired,Kolkata,+917812216773,customer407@bankdemo.com
+CUST1408,Customer_408,Current,448143.76,Education Loan,0,Lost Reported,Chennai,+919233327212,customer408@bankdemo.com
+CUST1409,Customer_409,Savings,209118.19,Home Loan,999410.31,Active,Hyderabad,+918677547644,customer409@bankdemo.com
+CUST1410,Customer_410,Fixed Deposit,395053.38,Home Loan,1360459.53,Blocked,Mumbai,+919831735910,customer410@bankdemo.com
+CUST1411,Customer_411,Savings,498001.33,Personal Loan,1575758.61,Blocked,Bangalore,+919706459829,customer411@bankdemo.com
+CUST1412,Customer_412,Savings,243694.9,Personal Loan,0,Blocked,Chennai,+918138345819,customer412@bankdemo.com
+CUST1413,Customer_413,Fixed Deposit,199612.68,None,1910383.65,Lost Reported,Mumbai,+916135340672,customer413@bankdemo.com
+CUST1414,Customer_414,Fixed Deposit,167894.21,Personal Loan,0,Active,Delhi,+917728784463,customer414@bankdemo.com
+CUST1415,Customer_415,Current,227024.94,Education Loan,0,Lost Reported,Bangalore,+919758772280,customer415@bankdemo.com
+CUST1416,Customer_416,Fixed Deposit,258669.26,Home Loan,1045793.33,Lost Reported,Chennai,+917539115730,customer416@bankdemo.com
+CUST1417,Customer_417,Savings,150920.05,Education Loan,1589244.28,Expired,Delhi,+916446149798,customer417@bankdemo.com
+CUST1418,Customer_418,Current,480560.87,Car Loan,985289.87,Blocked,Delhi,+916898486805,customer418@bankdemo.com
+CUST1419,Customer_419,Fixed Deposit,216632.33,Education Loan,79186.77,Active,Hyderabad,+918988410006,customer419@bankdemo.com
+CUST1420,Customer_420,Savings,445076.69,None,0,Expired,Delhi,+917369479222,customer420@bankdemo.com
+CUST1421,Customer_421,Savings,336990.6,None,0,Expired,Hyderabad,+916793257693,customer421@bankdemo.com
+CUST1422,Customer_422,Savings,314243.19,None,1970630.65,Expired,Kolkata,+918341748166,customer422@bankdemo.com
+CUST1423,Customer_423,Fixed Deposit,213859.25,Education Loan,0,Active,Hyderabad,+917195340535,customer423@bankdemo.com
+CUST1424,Customer_424,Fixed Deposit,297378.28,Home Loan,0,Expired,Delhi,+916612992191,customer424@bankdemo.com
+CUST1425,Customer_425,Current,281035.29,Education Loan,1448177.32,Blocked,Bangalore,+916804415982,customer425@bankdemo.com
+CUST1426,Customer_426,Savings,431739.67,Car Loan,572149.27,Expired,Bangalore,+919703987645,customer426@bankdemo.com
+CUST1427,Customer_427,Fixed Deposit,492934.92,None,467032.28,Active,Chennai,+919369099323,customer427@bankdemo.com
+CUST1428,Customer_428,Fixed Deposit,338373.74,Personal Loan,354069.69,Expired,Kolkata,+919773050787,customer428@bankdemo.com
+CUST1429,Customer_429,Savings,73470.14,Education Loan,114347.13,Blocked,Mumbai,+919527669163,customer429@bankdemo.com
+CUST1430,Customer_430,Fixed Deposit,141026.05,Personal Loan,717686.19,Blocked,Bangalore,+916146726641,customer430@bankdemo.com
+CUST1431,Customer_431,Current,315463.18,None,1048545.23,Expired,Kolkata,+919981843476,customer431@bankdemo.com
+CUST1432,Customer_432,Fixed Deposit,448321.59,Personal Loan,0,Active,Hyderabad,+916759060358,customer432@bankdemo.com
+CUST1433,Customer_433,Current,188564.16,None,1914620.03,Active,Chennai,+919878263535,customer433@bankdemo.com
+CUST1434,Customer_434,Savings,356212.35,Home Loan,0,Active,Hyderabad,+916664493985,customer434@bankdemo.com
+CUST1435,Customer_435,Savings,346990.28,Personal Loan,1021112.08,Active,Hyderabad,+919544680073,customer435@bankdemo.com
+CUST1436,Customer_436,Current,38145.48,Education Loan,0,Lost Reported,Delhi,+916061391553,customer436@bankdemo.com
+CUST1437,Customer_437,Savings,338198.76,Education Loan,492341.36,Expired,Kolkata,+919386140095,customer437@bankdemo.com
+CUST1438,Customer_438,Fixed Deposit,165471.22,None,0,Expired,Mumbai,+918365571949,customer438@bankdemo.com
+CUST1439,Customer_439,Savings,280337.21,Home Loan,0,Lost Reported,Kolkata,+917422721949,customer439@bankdemo.com
+CUST1440,Customer_440,Current,456927.38,Education Loan,882298.11,Expired,Bangalore,+917213108503,customer440@bankdemo.com
+CUST1441,Customer_441,Fixed Deposit,211153.74,None,0,Blocked,Delhi,+918293719236,customer441@bankdemo.com
+CUST1442,Customer_442,Fixed Deposit,302795.8,Education Loan,1110078.59,Expired,Kolkata,+917961761100,customer442@bankdemo.com
+CUST1443,Customer_443,Fixed Deposit,490418.56,Education Loan,333797.37,Expired,Hyderabad,+917968559475,customer443@bankdemo.com
+CUST1444,Customer_444,Current,211673.92,Personal Loan,0,Blocked,Chennai,+917834566653,customer444@bankdemo.com
+CUST1445,Customer_445,Savings,299159.09,None,400084.17,Blocked,Chennai,+917069963825,customer445@bankdemo.com
+CUST1446,Customer_446,Fixed Deposit,129468.16,None,225284.83,Blocked,Hyderabad,+917621585949,customer446@bankdemo.com
+CUST1447,Customer_447,Fixed Deposit,193850.33,Personal Loan,515090.67,Expired,Mumbai,+917502193722,customer447@bankdemo.com
+CUST1448,Customer_448,Savings,258664.92,None,0,Lost Reported,Bangalore,+916468676404,customer448@bankdemo.com
+CUST1449,Customer_449,Savings,304629.89,Car Loan,1290113.38,Blocked,Chennai,+918178756329,customer449@bankdemo.com
+CUST1450,Customer_450,Fixed Deposit,80303.28,Education Loan,0,Active,Kolkata,+919585067736,customer450@bankdemo.com
+CUST1451,Customer_451,Fixed Deposit,324832.31,Car Loan,0,Active,Delhi,+918971038528,customer451@bankdemo.com
+CUST1452,Customer_452,Current,177002.91,Car Loan,855231.8,Lost Reported,Delhi,+919753422518,customer452@bankdemo.com
+CUST1453,Customer_453,Fixed Deposit,325429.33,None,1477005.3,Expired,Delhi,+916631356028,customer453@bankdemo.com
+CUST1454,Customer_454,Savings,369299.12,Home Loan,0,Active,Bangalore,+917923910680,customer454@bankdemo.com
+CUST1455,Customer_455,Fixed Deposit,117380.39,Education Loan,98799.49,Active,Delhi,+917829062621,customer455@bankdemo.com
+CUST1456,Customer_456,Savings,369726.18,Car Loan,1207799.27,Lost Reported,Delhi,+919144249354,customer456@bankdemo.com
+CUST1457,Customer_457,Current,136650.29,Personal Loan,1661983.76,Blocked,Mumbai,+918578760484,customer457@bankdemo.com
+CUST1458,Customer_458,Fixed Deposit,61180.43,None,0,Expired,Bangalore,+919655125971,customer458@bankdemo.com
+CUST1459,Customer_459,Savings,359882.58,Home Loan,1635170.89,Blocked,Mumbai,+917222981440,customer459@bankdemo.com
+CUST1460,Customer_460,Current,221559.51,Personal Loan,1069780.5,Lost Reported,Chennai,+918187625847,customer460@bankdemo.com
+CUST1461,Customer_461,Current,85965.6,Personal Loan,0,Lost Reported,Delhi,+918739030071,customer461@bankdemo.com
+CUST1462,Customer_462,Fixed Deposit,383040.31,Personal Loan,922817.61,Lost Reported,Chennai,+917796235062,customer462@bankdemo.com
+CUST1463,Customer_463,Savings,314058.2,None,0,Active,Kolkata,+918398390244,customer463@bankdemo.com
+CUST1464,Customer_464,Fixed Deposit,174945.61,Education Loan,0,Lost Reported,Kolkata,+919487740597,customer464@bankdemo.com
+CUST1465,Customer_465,Current,327425.91,Car Loan,0,Expired,Chennai,+918724558477,customer465@bankdemo.com
+CUST1466,Customer_466,Savings,463483.34,Home Loan,1269594.3,Active,Delhi,+917122386882,customer466@bankdemo.com
+CUST1467,Customer_467,Current,343255.21,Home Loan,1018100.49,Expired,Hyderabad,+918992723852,customer467@bankdemo.com
+CUST1468,Customer_468,Savings,23766.26,Car Loan,0,Expired,Chennai,+919180611402,customer468@bankdemo.com
+CUST1469,Customer_469,Current,62671.04,Home Loan,0,Expired,Kolkata,+917076329003,customer469@bankdemo.com
+CUST1470,Customer_470,Savings,448777.71,None,770206.15,Lost Reported,Kolkata,+916670410565,customer470@bankdemo.com
+CUST1471,Customer_471,Current,180854.94,None,0,Lost Reported,Chennai,+917462247607,customer471@bankdemo.com
+CUST1472,Customer_472,Savings,228300.14,Education Loan,0,Blocked,Kolkata,+918296434015,customer472@bankdemo.com
+CUST1473,Customer_473,Current,230483.35,Car Loan,0,Lost Reported,Delhi,+919392237375,customer473@bankdemo.com
+CUST1474,Customer_474,Current,322788.26,Education Loan,209297.49,Active,Chennai,+917555316966,customer474@bankdemo.com
+CUST1475,Customer_475,Savings,366175.43,Home Loan,0,Active,Delhi,+918020795002,customer475@bankdemo.com
+CUST1476,Customer_476,Fixed Deposit,487644.54,Car Loan,0,Expired,Delhi,+917164857617,customer476@bankdemo.com
+CUST1477,Customer_477,Savings,361333.22,Education Loan,0,Lost Reported,Chennai,+918221912813,customer477@bankdemo.com
+CUST1478,Customer_478,Fixed Deposit,332666.55,Car Loan,0,Blocked,Kolkata,+917653572871,customer478@bankdemo.com
+CUST1479,Customer_479,Savings,320456.92,Home Loan,226047.13,Active,Hyderabad,+919565005870,customer479@bankdemo.com
+CUST1480,Customer_480,Fixed Deposit,86703.08,Education Loan,1853706.99,Active,Delhi,+917840446399,customer480@bankdemo.com
+CUST1481,Customer_481,Fixed Deposit,478308.54,Home Loan,837358.4,Active,Delhi,+917340675599,customer481@bankdemo.com
+CUST1482,Customer_482,Fixed Deposit,229155.09,Car Loan,1854541.22,Lost Reported,Chennai,+916099445535,customer482@bankdemo.com
+CUST1483,Customer_483,Savings,411419.46,Education Loan,872699.11,Expired,Hyderabad,+916842150079,customer483@bankdemo.com
+CUST1484,Customer_484,Fixed Deposit,265236.86,Car Loan,0,Blocked,Chennai,+918111817811,customer484@bankdemo.com
+CUST1485,Customer_485,Current,349632.21,Home Loan,462648.67,Lost Reported,Chennai,+919056449456,customer485@bankdemo.com
+CUST1486,Customer_486,Current,355513.63,Home Loan,0,Expired,Hyderabad,+916293718897,customer486@bankdemo.com
+CUST1487,Customer_487,Current,418303.42,Education Loan,1654644.12,Blocked,Kolkata,+917412156134,customer487@bankdemo.com
+CUST1488,Customer_488,Savings,367155.18,Personal Loan,1079603.18,Expired,Chennai,+919931539416,customer488@bankdemo.com
+CUST1489,Customer_489,Fixed Deposit,112704.54,None,775474.1,Active,Bangalore,+918167185513,customer489@bankdemo.com
+CUST1490,Customer_490,Savings,181568.03,Car Loan,0,Expired,Hyderabad,+919570820797,customer490@bankdemo.com
+CUST1491,Customer_491,Savings,477063.3,Car Loan,1499154.59,Expired,Kolkata,+919599525782,customer491@bankdemo.com
+CUST1492,Customer_492,Current,29181.66,None,1148586.61,Blocked,Hyderabad,+919127512363,customer492@bankdemo.com
+CUST1493,Customer_493,Fixed Deposit,109491.1,Personal Loan,773644.62,Expired,Mumbai,+916648964667,customer493@bankdemo.com
+CUST1494,Customer_494,Savings,271067.57,Home Loan,774356.02,Expired,Chennai,+916123039224,customer494@bankdemo.com
+CUST1495,Customer_495,Savings,225102.98,Education Loan,0,Expired,Bangalore,+919706235176,customer495@bankdemo.com
+CUST1496,Customer_496,Fixed Deposit,26743.53,Education Loan,1548918.93,Blocked,Bangalore,+919977949694,customer496@bankdemo.com
+CUST1497,Customer_497,Current,111077.99,None,0,Active,Chennai,+916053751822,customer497@bankdemo.com
+CUST1498,Customer_498,Fixed Deposit,304268.12,Personal Loan,1510938.91,Lost Reported,Kolkata,+919796944506,customer498@bankdemo.com
+CUST1499,Customer_499,Fixed Deposit,297218.24,Home Loan,218906.36,Active,Mumbai,+918460587312,customer499@bankdemo.com
