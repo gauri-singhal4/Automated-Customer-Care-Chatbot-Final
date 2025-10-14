@@ -2,259 +2,280 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings('ignore')
 
-# Try importing with fallback
 try:
     from sentence_transformers import SentenceTransformer
+    from transformers import pipeline
     import faiss
-    EMBEDDINGS_AVAILABLE = True
-except ImportError as e:
-    st.warning(f"Advanced features unavailable: {e}")
-    EMBEDDINGS_AVAILABLE = False
+    MODELS_AVAILABLE = True
+except ImportError:
+    MODELS_AVAILABLE = False
 
-st.set_page_config(page_title="🏦 AI Banking Assistant", page_icon="🏦", layout="wide")
+st.set_page_config(page_title="Banking Assistant", page_icon="🏦")
+
+@st.cache_resource
+def load_all_models():
+    models = {}
+    status = {}
+    
+    if not MODELS_AVAILABLE:
+        return models, {"error": "Models not available"}
+    
+    # Model 1: Sentence Transformers
+    try:
+        models['embeddings'] = SentenceTransformer('all-MiniLM-L6-v2')
+        status['embeddings'] = "✅"
+    except:
+        status['embeddings'] = "❌"
+    
+    # Model 2: DistilBERT Q&A
+    try:
+        models['qa'] = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
+        status['qa'] = "✅"
+    except:
+        status['qa'] = "❌"
+    
+    # Model 3: DistilGPT-2 Text Generation
+    try:
+        models['generator'] = pipeline("text-generation", model="distilgpt2", max_length=100, 
+                                     num_return_sequences=1, temperature=0.7, pad_token_id=50256)
+        status['generator'] = "✅"
+    except:
+        status['generator'] = "❌"
+    
+    # Model 4: BART Classifier
+    try:
+        models['classifier'] = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+        status['classifier'] = "✅"
+    except:
+        status['classifier'] = "❌"
+    
+    # Model 5: RoBERTa Sentiment
+    try:
+        models['sentiment'] = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
+        status['sentiment'] = "✅"
+    except:
+        status['sentiment'] = "❌"
+    
+    return models, status
 
 @st.cache_data
-def load_data():
-    paths = ["Bank_FAQs.csv", os.path.join(".", "Bank_FAQs.csv"), os.path.join("app", "Bank_FAQs.csv")]
-    df = None
+def load_banking_data():
+    paths = ["Bank_FAQs.csv", "app/Bank_FAQs.csv"]
     for path in paths:
         if os.path.exists(path):
-            try: df = pd.read_csv(path); break
-            except: continue
+            try:
+                df = pd.read_csv(path)
+                q_cols = [c for c in df.columns if 'question' in c.lower() or 'query' in c.lower()]
+                a_cols = [c for c in df.columns if 'answer' in c.lower() or 'response' in c.lower()]
+                if q_cols and a_cols:
+                    data = []
+                    blacklist = ["customer_", "dear customer", "hdfc", "sbi", "icici", "axis"]
+                    for _, row in df.iterrows():
+                        q, a = str(row[q_cols[0]]).strip(), str(row[a_cols[0]]).strip()
+                        if len(q) > 5 and len(a) > 15 and not any(b in a.lower() for b in blacklist):
+                            clean_a = a.replace("HDFC", "your bank").replace("SBI", "your bank").replace("ICICI", "your bank")
+                            data.append({"q": q, "a": clean_a})
+                    return data
+            except: 
+                continue
     
-    if df is None:
-        return get_enhanced_defaults()
-    
-    q_cols = [c for c in df.columns if any(x in c.lower() for x in ['question', 'query', 'q'])]
-    a_cols = [c for c in df.columns if any(x in c.lower() for x in ['answer', 'response', 'a'])]
-    
-    if not q_cols or not a_cols:
-        return get_enhanced_defaults()
-    
-    df = df[df[q_cols[0]].notna() & df[a_cols[0]].notna()]
-    blacklist = ["customer_", "dear customer", "rs.", "$", "icici", "hdfc", "axis", "sbi"]
-    
-    qa_pairs = []
-    for _, row in df.iterrows():
-        q, a = str(row[q_cols[0]]).strip(), str(row[a_cols[0]]).strip()
-        if len(q) > 5 and len(a) > 15 and not any(bad in a.lower() for bad in blacklist):
-            qa_pairs.append({"q": q, "a": make_generic(a), "cat": categorize(q), "pri": calc_priority(q, a)})
-    
-    qa_pairs.extend(get_enhanced_defaults())
-    return sorted(qa_pairs, key=lambda x: x.get('pri', 5), reverse=True)
-
-def make_generic(answer):
-    reps = {"HDFC Bank": "your bank", "HDFC": "your bank", "ICICI Bank": "your bank", "SBI": "your bank", 
-            "NetBanking": "internet banking", "our branch": "any bank branch", "we offer": "banks offer"}
-    for old, new in reps.items():
-        answer = answer.replace(old, new)
-    return answer.strip() + ("" if answer.endswith(('.', '!', '?')) else ".")
-
-def categorize(question):
-    q = question.lower()
-    if "card" in q: return "cards"
-    if any(x in q for x in ["loan", "emi", "credit"]): return "loans"
-    if any(x in q for x in ["account", "balance", "saving"]): return "accounts"
-    if any(x in q for x in ["transfer", "payment", "neft", "rtgs", "upi"]): return "transfers"
-    return "general"
-
-def calc_priority(q, a):
-    pri = 5 + (2 if len(a.split()) > 20 else 0) + (1 if any(x in a for x in ['1)', 'steps']) else 0)
-    return pri + (1 if any(term in q.lower() for term in ['account', 'loan', 'card']) else 0)
-
-def get_enhanced_defaults():
+    # Enhanced default banking knowledge
     return [
-        {"q": "How to open savings account?", "a": "Visit bank with ID and address proof. Fill form, make initial deposit, complete KYC. Account active in 24-48 hours. Online applications also available.", "cat": "accounts", "pri": 9},
-        {"q": "Home loan interest rates?", "a": "Home loan rates: 8.5-12% annually. Depends on credit score, loan amount, tenure. Fixed or floating rates available. Check multiple banks for best rates.", "cat": "loans", "pri": 9},
-        {"q": "Credit card application process?", "a": "Credit card steps: Check eligibility → Choose card type → Submit documents → Verification → Approval in 7-15 days → Card delivery. Age 18+, regular income required.", "cat": "cards", "pri": 9},
-        {"q": "Online money transfer methods?", "a": "Transfer options: NEFT (2-4 hours, free), RTGS (instant, ₹2L+), IMPS (instant, 24/7), UPI (instant P2P). All via internet/mobile banking.", "cat": "transfers", "pri": 8},
-        {"q": "Personal loan documents needed?", "a": "Personal loan docs: ID proof, address proof, income proof (3 months salary slips), bank statements, employment certificate, photos, Form 16/ITR.", "cat": "loans", "pri": 8}
+        {"q": "How to open savings account step by step?", "a": "To open a savings account: 1) Choose your bank and account type 2) Gather required documents (ID proof, address proof, photos) 3) Visit branch or apply online 4) Fill application form completely 5) Submit documents for verification 6) Complete KYC process 7) Make initial deposit 8) Receive account number and debit card in 7-10 days."},
+        {"q": "What are current home loan interest rates?", "a": "Home loan interest rates currently range from 8.5% to 12% per annum. Rates vary based on your credit score, loan amount, tenure, and bank policies. Fixed rates remain constant, floating rates change with market conditions. Compare rates from multiple banks before deciding."},
+        {"q": "How to apply for credit card online?", "a": "Online credit card application: 1) Visit bank's official website 2) Choose suitable card type 3) Check eligibility criteria 4) Fill online application form 5) Upload required documents (ID, income proof, address proof) 6) Submit application 7) Complete verification process 8) Receive approval decision in 7-15 days 9) Card delivered to registered address."},
+        {"q": "What are different money transfer methods?", "a": "Money transfer options: 1) NEFT (National Electronic Funds Transfer) - free, takes 2-4 hours 2) RTGS (Real Time Gross Settlement) - instant, for amounts above ₹2 lakhs 3) IMPS (Immediate Payment Service) - instant, available 24/7 4) UPI (Unified Payments Interface) - instant peer-to-peer transfers via mobile apps. All available through internet banking."},
+        {"q": "What documents needed for personal loan?", "a": "Personal loan documentation: 1) Identity proof (PAN card, Aadhaar, passport) 2) Address proof (utility bills, rent agreement) 3) Income proof (salary slips for last 3 months, bank statements) 4) Employment certificate or offer letter 5) Recent passport-size photographs 6) Form 16 or ITR for income verification. Additional documents may be required based on loan amount and bank policies."}
     ]
 
 @st.cache_resource
-def build_indexes(qa_pairs):
-    questions = [item["q"] for item in qa_pairs]
-    answers = [item["a"] for item in qa_pairs]
-    priorities = [item.get("pri", 5) for item in qa_pairs]
+def build_search_system(data, models):
+    questions = [item["q"] for item in data]
+    answers = [item["a"] for item in data]
     
-    # Always build TF-IDF (no dependency issues)
-    vec = TfidfVectorizer(stop_words='english', ngram_range=(1, 3), max_features=2000)
-    tfidf_mat = vec.fit_transform([q.lower() for q in questions])
+    # Build TF-IDF (always available)
+    vectorizer = TfidfVectorizer(stop_words='english', ngram_range=(1, 3), max_features=3000)
+    tfidf_matrix = vectorizer.fit_transform(questions)
     
-    result = {"vec": vec, "tfidf": tfidf_mat, "questions": questions, "answers": answers, "priorities": priorities}
+    search_system = {
+        "vectorizer": vectorizer, "tfidf": tfidf_matrix, 
+        "questions": questions, "answers": answers, "data": data
+    }
     
-    # Try to add embeddings if available
-    if EMBEDDINGS_AVAILABLE:
+    # Add semantic search if embeddings model available
+    if 'embeddings' in models:
         try:
-            model = SentenceTransformer('all-MiniLM-L6-v2')
-            embeddings = model.encode(questions, show_progress_bar=False)
-            norm_emb = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
-            
-            faiss_idx = faiss.IndexFlatIP(norm_emb.shape[1])
-            faiss_idx.add(norm_emb.astype('float32'))
-            
-            result.update({"model": model, "faiss": faiss_idx, "emb": norm_emb, "embeddings_active": True})
-        except Exception as e:
-            st.warning(f"Embeddings disabled: {e}")
-            result["embeddings_active"] = False
-    else:
-        result["embeddings_active"] = False
-    
-    return result
-
-def enhanced_search(query, idx):
-    # Method 1: Try embeddings if available
-    if idx.get("embeddings_active") and "model" in idx:
-        try:
-            q_emb = idx["model"].encode([query])
-            q_emb = q_emb / np.linalg.norm(q_emb)
-            emb_dist, emb_idx = idx["faiss"].search(q_emb.astype('float32'), 5)
-            
-            # TF-IDF search
-            q_vec = idx["vec"].transform([query.lower()])
-            tfidf_sim = cosine_similarity(q_vec, idx["tfidf"]).flatten()
-            
-            # Combined scoring
-            scores = []
-            for i in range(len(idx["answers"])):
-                emb_score = emb_dist[0][list(emb_idx[0]).index(i)] if i in emb_idx[0] else 0
-                tfidf_score = tfidf_sim[i]
-                pri_weight = idx["priorities"][i] / 10.0
-                combined = emb_score * 0.6 + tfidf_score * 0.3 + pri_weight * 0.1
-                scores.append((combined, i))
-            
-            best_score, best_idx = max(scores)
-            if best_score > 0.4:
-                return idx["answers"][best_idx], best_score, "🎯 Hybrid Search"
+            embeddings = models['embeddings'].encode(questions)
+            norm_embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
+            faiss_index = faiss.IndexFlatIP(norm_embeddings.shape[1])
+            faiss_index.add(norm_embeddings.astype('float32'))
+            search_system.update({
+                "embeddings_model": models['embeddings'],
+                "faiss_index": faiss_index,
+                "embeddings": norm_embeddings
+            })
         except:
             pass
     
-    # Method 2: TF-IDF only (fallback)
-    q_vec = idx["vec"].transform([query.lower()])
-    tfidf_sim = cosine_similarity(q_vec, idx["tfidf"]).flatten()
-    
-    # Add priority weighting
-    weighted_scores = []
-    for i, score in enumerate(tfidf_sim):
-        weight = idx["priorities"][i] / 10.0
-        weighted_scores.append(score + weight * 0.2)
-    
-    best_idx = np.argmax(weighted_scores)
-    best_score = weighted_scores[best_idx]
-    
-    if best_score > 0.3:
-        return idx["answers"][best_idx], best_score, "📊 TF-IDF Search"
-    
-    return "", 0, "❌ No Match"
+    return search_system
 
-def generate_template_response(query):
-    templates = {
-        "account": ["Account services: Visit branch with documents, fill forms, make deposit. Online options available.", 
-                   "To open account: ID proof + address proof + initial deposit. Processing: 1-2 days."],
-        "loan": ["Loan info: Rates vary 8-24% based on type and credit. Documents: ID, income, address proof required.",
-                "Loan process: Application → Documentation → Verification → Approval → Disbursal. Timeline: 7-15 days."],
-        "card": ["Card application: Age 18+, income proof needed. Process: Apply → Verify → Approve → Delivery in 10-15 days.",
-                "Cards available: Credit, debit, prepaid. Benefits vary by type. Compare features before applying."],
-        "transfer": ["Money transfer: NEFT/RTGS/IMPS/UPI available. NEFT free, others minimal charges. Instant to few hours.",
-                    "Transfer methods: Online banking, mobile apps, branch visits. Registration required for beneficiaries."]
-    }
+def generate_multi_model_response(query, search_system, models):
+    responses = []
+    methods_used = []
     
-    q_lower = query.lower()
-    for key, responses in templates.items():
-        if key in q_lower:
-            return random.choice(responses)
-    return None
+    # Model 1: Semantic Search (Sentence Transformers + FAISS)
+    if "embeddings_model" in search_system:
+        try:
+            query_emb = search_system["embeddings_model"].encode([query])
+            query_emb = query_emb / np.linalg.norm(query_emb)
+            distances, indices = search_system["faiss_index"].search(query_emb.astype('float32'), 3)
+            if distances[0][0] > 0.7:
+                semantic_response = search_system["answers"][indices[0][0]]
+                responses.append((semantic_response, distances[0][0], "Semantic Search"))
+                methods_used.append("Sentence Transformers")
+        except:
+            pass
+    
+    # Model 2: Question Answering (DistilBERT)
+    if 'qa' in models:
+        try:
+            # Create context from top banking answers
+            context = " ".join(search_system["answers"][:5])
+            qa_result = models['qa'](question=query, context=context)
+            if qa_result['score'] > 0.3:
+                qa_response = f"{qa_result['answer']}. For more details, please contact your bank directly."
+                responses.append((qa_response, qa_result['score'], "Q&A Model"))
+                methods_used.append("DistilBERT Q&A")
+        except:
+            pass
+    
+    # Model 3: Intent Classification (BART)
+    if 'classifier' in models:
+        try:
+            banking_intents = ["account opening", "loan information", "credit cards", 
+                             "money transfers", "document requirements", "interest rates"]
+            classification = models['classifier'](query, banking_intents)
+            if classification['scores'][0] > 0.8:
+                intent = classification['labels'][0]
+                intent_responses = {
+                    "account opening": "To open a bank account, visit any branch with ID and address proof. Fill the application form and make initial deposit. Account will be activated within 24-48 hours.",
+                    "loan information": "Loan interest rates vary by type: Personal loans (10-24%), Home loans (8-12%), Car loans (7-15%). Eligibility depends on credit score, income, and employment stability.",
+                    "credit cards": "Credit card application requires age 18+, regular income, and good credit score. Apply online or visit branch with income proof and ID documents.",
+                    "money transfers": "Money transfer options include NEFT (free), RTGS (instant), IMPS (24/7), and UPI (mobile). All available through internet banking.",
+                    "document requirements": "Common documents: ID proof (PAN, Aadhaar), address proof (utility bills), income proof (salary slips), and recent photographs.",
+                    "interest rates": "Interest rates vary by product and bank. Check with multiple banks for current rates as they change frequently based on RBI guidelines."
+                }
+                intent_response = intent_responses.get(intent, "")
+                if intent_response:
+                    responses.append((intent_response, classification['scores'][0], "Intent Classification"))
+                    methods_used.append("BART Classifier")
+        except:
+            pass
+    
+    # Model 4: Enhanced Text Generation (DistilGPT-2)
+    if 'generator' in models and responses:
+        try:
+            # Use best response as seed for generation
+            best_base = max(responses, key=lambda x: x[1])[0]
+            generation_prompt = f"Banking question: {query}\nAnswer: {best_base[:50]}"
+            generated = models['generator'](generation_prompt, max_length=150, do_sample=True)
+            generated_text = generated[0]['generated_text']
+            
+            # Extract only the generated part
+            if "Answer:" in generated_text:
+                enhanced_response = generated_text.split("Answer:")[-1].strip()
+                if len(enhanced_response) > 20 and len(enhanced_response.split()) > 5:
+                    responses.append((enhanced_response, 0.8, "Enhanced Generation"))
+                    methods_used.append("DistilGPT-2")
+        except:
+            pass
+    
+    # Model 5: TF-IDF Search (Enhanced)
+    try:
+        query_vec = search_system["vectorizer"].transform([query])
+        similarities = cosine_similarity(query_vec, search_system["tfidf"]).flatten()
+        best_idx = np.argmax(similarities)
+        if similarities[best_idx] > 0.3:
+            tfidf_response = search_system["answers"][best_idx]
+            responses.append((tfidf_response, similarities[best_idx], "TF-IDF Search"))
+            methods_used.append("TF-IDF")
+    except:
+        pass
+    
+    # Select best response
+    if responses:
+        best_response = max(responses, key=lambda x: x[1])
+        return best_response[0], best_response[2], methods_used
+    
+    # Ultimate fallback
+    fallback_response = generate_fallback(query)
+    return fallback_response, "Fallback System", ["Keyword Matching"]
 
-def smart_fallback(query):
-    fallbacks = {
-        "rate": "Rates vary by product and bank. Check current rates with your preferred bank or RBI website.",
-        "fee": "Fees differ by bank and service. Check fee schedule with your bank for accurate information.",
-        "eligibility": "Eligibility varies by product. Generally: age, income, credit score matter. Contact bank for details.",
-        "document": "Common docs: ID proof, address proof, income proof. Specific needs vary by service.",
-        "time": "Timeline varies: Account opening (1-2 days), loans (7-15 days), cards (10-15 days)."
-    }
-    
-    for key, fallback in fallbacks.items():
-        if key in query.lower():
-            return fallback
-    
-    return "I can help with banking queries. Please specify: accounts, loans, cards, or transfers for detailed assistance."
+def analyze_sentiment(query, models):
+    if 'sentiment' in models:
+        try:
+            sentiment_result = models['sentiment'](query)
+            return sentiment_result[0]['label'], sentiment_result[0]['score']
+        except:
+            return "NEUTRAL", 0.5
+    return "NEUTRAL", 0.5
 
-def generate_response(query, idx):
-    # Method 1: Enhanced retrieval
-    result, confidence, method = enhanced_search(query, idx)
-    if confidence > 0.5:
-        enhanced = result + "\n\nFor specific details, contact your bank directly."
-        return enhanced, method
-    
-    # Method 2: Template responses
-    template_resp = generate_template_response(query)
-    if template_resp:
-        return template_resp, "📝 Template Response"
-    
-    # Method 3: Smart fallback
-    fallback_resp = smart_fallback(query)
-    return fallback_resp, "💡 Smart Guidance"
+def generate_fallback(query):
+    query_lower = query.lower()
+    if "account" in query_lower or "open" in query_lower:
+        return "To open a bank account, visit any branch with valid ID and address proof. Fill the application form and make initial deposit. Account activation takes 1-2 days."
+    elif "loan" in query_lower or "rate" in query_lower:
+        return "Loan interest rates vary by type and bank. Personal loans: 10-24%, Home loans: 8-12%. Check with multiple banks for current rates and eligibility criteria."
+    elif "card" in query_lower or "credit" in query_lower:
+        return "Credit card application requires age 18+, regular income, and good credit score. Apply online or visit bank branch with required documents."
+    elif "transfer" in query_lower or "payment" in query_lower:
+        return "Money transfer options: NEFT (free), RTGS (instant), IMPS (24/7), UPI (mobile). All available through internet banking and mobile apps."
+    else:
+        return "I can help with banking services including accounts, loans, credit cards, and money transfers. Please ask about specific banking needs."
 
 def main():
-    st.title("🏦 Enhanced AI Banking Assistant")
-    st.caption("*Advanced retrieval with compatibility-focused design*")
+    st.title("🏦 Banking Assistant")
     
-    # Load and build indexes
-    with st.spinner("🔄 Loading banking intelligence..."):
-        qa_data = load_data()
-        indexes = build_indexes(qa_data)
-    
-    # Status display
-    col1, col2, col3 = st.columns(3)
-    with col1: st.metric("Knowledge Base", f"{len(qa_data)} Responses")
-    with col2: 
-        embedding_status = "✅ Active" if indexes.get("embeddings_active") else "📊 TF-IDF Only"
-        st.metric("Search Engine", embedding_status)
-    with col3: st.metric("Response Quality", "Enhanced")
+    # Load all models and data
+    with st.spinner("Loading 5 AI models..."):
+        models, model_status = load_all_models()
+        banking_data = load_banking_data()
+        search_system = build_search_system(banking_data, models)
     
     # Initialize chat
     if "messages" not in st.session_state:
-        st.session_state.messages = [{"role": "assistant", 
-            "content": "Hello! I'm your enhanced banking assistant. Ask me about accounts, loans, cards, transfers, or any banking service!"}]
+        active_models = len([v for v in model_status.values() if v == "✅"])
+        st.session_state.messages = [
+            {"role": "assistant", "content": f"Hi! I'm powered by {active_models} AI models. Ask me about banking services like accounts, loans, cards, or transfers."}
+        ]
     
     # Display chat
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"]):
             st.write(msg["content"])
-            if "method" in msg: st.caption(msg["method"])
     
-    # Handle input
-    if prompt := st.chat_input("Ask about banking services..."):
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.chat_message("user"): st.write(prompt)
+    # Chat input
+    if prompt := st.chat_input("Ask about banking..."):
+        # Analyze sentiment
+        sentiment_label, sentiment_score = analyze_sentiment(prompt, models)
         
+        # Add user message
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.write(prompt)
+        
+        # Generate response using all models
         with st.chat_message("assistant"):
-            with st.spinner("🧠 Generating response..."): 
-                response, method = generate_response(prompt, indexes)
+            with st.spinner("Processing with AI models..."):
+                response, method, models_used = generate_multi_model_response(prompt, search_system, models)
+            
             st.write(response)
-            st.caption(method)
-            st.session_state.messages.append({"role": "assistant", "content": response, "method": method})
-    
-    # Sidebar
-    with st.sidebar:
-        st.header("🚀 Features")
-        if indexes.get("embeddings_active"):
-            st.write("✅ **Semantic Embeddings**")
-            st.write("✅ **FAISS Vector Search**")
-        else:
-            st.write("📊 **TF-IDF Search Active**")
-            st.write("ℹ️ **Embeddings Disabled**")
-        st.write("✅ **Multi-Template System**") 
-        st.write("✅ **Priority Matching**")
-        st.write("✅ **Smart Fallbacks**")
-        st.success("🔥 All core features active!")
+            st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
     main()
